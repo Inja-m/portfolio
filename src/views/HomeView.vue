@@ -1,9 +1,5 @@
-<script setup>
-
-</script>
-
 <template>
   <main>
-    Halo...
+    Home
   </main>
 </template>
