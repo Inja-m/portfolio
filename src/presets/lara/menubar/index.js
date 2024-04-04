@@ -5,11 +5,10 @@ export default {
 
             // Flexbox
             'flex',
-            'items-end',
+			'justify-between',
 
             // Spacing
-            'p-2',
-
+            'p-2'
         ]
     },
     menu: ({ props }) => ({
@@ -17,8 +16,9 @@ export default {
             // Flexbox
             'sm:flex',
             'items-center',
+			'justify-end',
             'flex-wrap',
-            'flex-col-reverse sm:flex-row-reverse',
+            'flex-col sm:flex-row',
             { hidden: !props?.mobileActive, flex: props?.mobileActive },
 
             // Position
@@ -48,9 +48,8 @@ export default {
     menuitem: {
         class: 'sm:relative sm:w-auto w-full static'
     },
-    content: ({ props, context }) => {
-		console.log(context.item.item)
-		return {
+    content: ({ props, context }) => ({
+
         class: [
             // Shape
             { 'rounded-md': props.root },
@@ -60,8 +59,15 @@ export default {
             'duration-200'
 
         ]
-	}
-    },
+    }),
+	start: {
+		class: [
+		// Spacing
+		'sm:px-3',
+
+		'justify-start'
+		]
+	},
     action: ({ context}) => ({
         class: [
             'relative',
