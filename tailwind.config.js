@@ -30,6 +30,7 @@ export default {
 		}
 	},
   },
-  plugins: [],
+  darkMode: 'selector',
+  plugins: []
 }
 
