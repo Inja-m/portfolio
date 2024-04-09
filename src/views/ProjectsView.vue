@@ -1,7 +1,7 @@
 <template>
 	<h1>Projekte</h1>
 	<div v-for="project in projectContent" :key="project.id">
-    <ProjectCard :title="project.title" :content="project.description" :imageSrc="project.imageSrc"></ProjectCard>
+    <ProjectCard :title="project.title" :content="project.description" :imageSrc="project.imageSrc" :bgColour="project.colour"></ProjectCard>
     </div>
 	
 </template>

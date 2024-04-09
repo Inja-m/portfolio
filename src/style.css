@@ -1,29 +1,51 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind variants;
+@tailwind colors;
 
 :root {
-    --primary-50: #ecfeff;
-    --primary-100: #cffafe;
-    --primary-200: #a5f3fc;
-    --primary-300: #67e8f9;
-    --primary-400: #22d3ee;
-    --primary-500: #06b6d4;
-    --primary-600: #0891b2;
-    --primary-700: #0e7490;
-    --primary-800: #155e75;
-    --primary-900: #164e63;
-    --primary-950: #083344;
-    --surface-0: 255 255 255;
-    --surface-50: 249 250 251;
-    --surface-100: 243 244 246;
-    --surface-200: 229 231 235;
-    --surface-300: 209 213 219;
-    --surface-400: 156 163 175;
-    --surface-500: 107 114 128;
-    --surface-600: 75 85 99;
-    --surface-700: 55 65 81;
-    --surface-800: 31 41 55;
-    --surface-900: 17 24 39;
-    --surface-950: 8 8 8;
+	--green-900: #05331E;
+	--green-800: #0A482B;
+	--green-700: #146640;
+	--green-600: #247F55;
+	--green-500: #35996A;
+	--green-400: #56CC95;
+	--green-300: #74EEB5;
+	--green-200: #89F9C5;
+	--green-100: #9DFFD1;
+	
+	--red-900: #840000;
+	--red-800: #A40404;
+	--red-700: #C20B0B;
+	--red-600: #D81111;
+	--red-500: #E72B2B;
+	--red-400: #E74242;
+	--red-300: #ED615C;
+	--red-200: #F37C77;
+	--red-100: #F39894;
+
+  --primary-50: 236 254 255;
+  --primary-100: 207 250 254;
+  --primary-200: 165 243 252;
+  --primary-300: 103 232 249;
+  --primary-400: 34 211 238;
+  --primary-500: 6 182 212;
+  --primary-600: 8 145 178;
+  --primary-700: 14 116 144;
+  --primary-800: 21 94 117;
+  --primary-900: 22 78 99;
+  --primary-950: 8 51 68;
+
+  --surface-0: 255 255 255;
+  --surface-50: 249 250 251;
+  --surface-100: 243 244 246;
+  --surface-200: 229 231 235;
+  --surface-300: 209 213 219;
+  --surface-400: 156 163 175;
+  --surface-500: 107 114 128;
+  --surface-600: 75 85 99;
+  --surface-700: 55 65 81;
+  --surface-800: 31 41 55;
+  --surface-900: 17 24 39;
+  --surface-950: 8 8 8;
 }

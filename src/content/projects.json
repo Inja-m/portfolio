@@ -1,0 +1,57 @@
+[
+	{
+		"id": 0,
+		"colour": "red",
+		"title": "Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen für den PartizipationsHub",
+		"imageSrc": "@/assets/logo.svg",
+		"description": "Im Fokus meiner Bachelorarbeit stand die Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen als Teil des Forschungsprojektes VernetzBar der Universität zu Lübeck. Als Basis wurde hierbei die digitale Open Source Software Decidim verwendet, welche die Einrichtung einer webbasierten Plattform speziell für die Partizipation ermöglicht.",
+		"content":[
+			{
+				"subtitle": "Projektbeschreibung",
+				"description": "Ziel der Vernetzbar ist es, Jugendliche und jungen Erwachsene in Lübeck eine partizipative Plattform zur Verfügung zu stellen, auf der sie Informationen zu Hilfsangeboten finden können. Des Weiteren soll eine Möglichkeit geschaffen werden, dass Jugendlichen und jungen Erwachsenen schnell an Unterstützung gelangen, spielerisch neue Zielgruppen erreichen sowie über Projektsteckbriefe Ressourcen aktivieren und gemeinsam gestalten können. Dafür soll der PartizipationsHub etabliert werden. Die entwickelte Komponente beschäftigt sich mit dem digitalen Monitoring von Projektprozesse. Innerhalb dessen können strategische Planungen, partizipative Prozesse und Kommunikation zwischen Projektträgern und jungen Erwachsenen stattfinden. Dazu wurden in der vorliegenden Arbeit systematisch, standardisierte Anforderungen an eine solche Komponente auf Basis von Organisations-, Nutzenden-, Aufgaben- und Kontextanalyse erfasst. Die Hochpriorisierten Anforderungen wurden zuerst in einem Figma Prototypen gestaltet bevor sie in einem technologisch ausgereiften Prototyps realisiert wurden. Die Evaluation zeigte, dass ein qualitativ hochwertiger Prototyp entworfen wurde, welcher als hilfreich und übersichtlich wahrgenommen wurde. Abschließend wird die Weiterentwicklung, sowie die Integration der Komponente in ein gesamt System Vorgeschlagen und Folgestudien zur Evaluation der Anwendung vorgeschlagen und diskutiert."
+			},
+			{
+				"subtitle": "Die Anwendung",
+				"description": "Die Webanwendung basiert auf der Open-Source-Software Decidim, die mit Ruby on Rails entwickelt wird. Decidim verwendet SASS als CSS-Präprozessor mit der SCSS-Syntax. Zusätzlich nutzt die Anwendung das CSS-Framework Tailwind CSS. Der Prototyp enthält die Ansichten Projektübersicht, Projektideen und Für Dich inklusive Filteroptionen. Ebenso sind Detailansichten der Projekte und Ideen enthalten, welche Interaktion wie teilnehmen, folgen und bewerten ermöglichen."
+			}
+		]
+	},
+	{
+		"id": 1,
+		"colour": "green",
+		"title": "Platzsy - Deine Spielplatzassistenz",
+		"imageSrc": "",
+		"description": "Platzsy - Deine Spielplatzassistenz ist ein Projekt, welches im Rahmen des Open Data Hackathons 2022/2023 in einer Gruppenarbeit entwickelt.",
+		"content":[
+			{
+				"subtitle": "Projektbeschreibung",
+				"description": "Platzsy ist eine Anwendung, die im Rahmen des Open Data Hackathons 2022/2023 entwickelt wurde, um Eltern bei der Suche nach dem optimalen Spielplatz zu unterstützen. In einem hektischen Alltag, der von Arztterminen, KiTa-Organisation und Haushaltsaufgaben geprägt ist, bleibt wenig Zeit für aufwendige Recherchen. Auch wenn man zunächst annehmen könnte, die Spieplatzauswahl sei einfach – man sucht sich eben einen Passenden in der Nähe – sieht das in der Realität völlig anders aus. Spätestens, wenn man die Bedürfnisse mehrerer Kinder unterschiedlicher Altersstufen vereinen möchte, steht man vor einer großen Herausforderung. Platzsy löst dieses Problem, indem es Eltern ermöglicht, schnell und unkompliziert den passenden Spielplatz für ihre Kinder zu finden. Schluss mit zeitraubenden Ausprobier-Manövern – Platzsy macht die Auswahl einfach und effizient."
+			},
+			{
+				"subtitle": "Vorgehen",
+				"description": "Um trotz des begrenzten Zeitrahmens eine nutzerzentrierte Gestaltung zu gewährleisten, wurde zunächst eine Analyse durchgeführt, die die Nutzergruppen Eltern, KiTas und Stadt näher betrachtete. Basierend auf einer detaillierten Beschreibung der Nutzergruppen und entsprechender Szenarien wurden Use Cases abgeleitet, priorisiert und ein Product Backlog definiert. Damit sich während der Entwicklung auf die wesentliche Funktionen fokussiert werden konnte, wurde ein MVP (Minimum Viable Product) definiert."
+			},
+			{
+				"subtitle": "Die Anwendung",
+				"description": "Die Web-App wurde mithilfe Strapi für das Backend, Vue.js für das Frontend und Vuestic für das UI-Design erstellt. Die Datenbasis bilden Daten von OpenStreetMap sowie von Gruppenmitgliedern gesammelte Daten. Die MVP enthält eine Kartenübersicht der Spielplätze und eine detaillierte Ansicht jedes Spielplatzes mit Filteroptionen und Bewertungsmöglichkeiten."
+			},
+			{
+				"subtitle": "Ausblick",
+				"description": "Die entwickelte Web-App kann somit als Basis dienen, den Funktionsumfang über das MVP hinaus zu erweitern. Hierfür wurden bereits einige Features definiert, wie zum Beispiel eine Profilfunktion, um bereits besuchte Spielplätze zu protokollieren und zur persistenten Speicherung von Filtereinstellungen. Weiterhin wurde eine Auslastungsanzeige als relevante Funktion eingestuft, welche aufgrund fehlender Datengrundlage nicht umgesetzt werden konnte. Weiterhin gilt es, die Datengrundlage, welche von der Gruppe verwendet wurde, fundierter auszugestalten. So konnten im Rahmen des Hackathons nur von ca. 15 Spielplätzen detaillierte Daten (inklusive Fotos) aufbereitet werden. Die restlichen Daten wurden von OpenStreetMap integriert, sodass die Korrektheit dieser Datensätze nicht garantiert werden kann. Um den nutzerzentrierten Ansatz fortzusetzen, sollte ein Austausch mit potenziellen Nutzenden ermöglicht werden, sodass Funktionalitäten und Umsetzungen im Rahmen von User Studies getestet werden können. Ein Einstieg könnte sein, gemeinsam mit der Stadt und ausgewählten Nutzenden eine Fokusgruppe zu bilden, welche den aktuellen Stand gemeinsam weiterentwickelt."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"colour": "primary",
+		"title": "Fallstudie/Hub?",
+		"imageSrc": "",
+		"description": "Derzeit noch in der Erstellung",
+		"content":[
+			{
+				"subtitle": "",
+				"description": ""
+			}
+		]
+	}
+]

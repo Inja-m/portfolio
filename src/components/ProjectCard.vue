@@ -1,5 +1,5 @@
 <template>
-	<div class="w-full sm:max-w-full sm:flex bg-surface-200 my-12">
+	<div class="w-full sm:max-w-full sm:flex my-12" :class="`bg-${bgColour}-200`">
       <div class="h-48 sm:h-48 sm:w-48 flex-none bg-cover rounded-t sm:rounded-t-none sm:rounded-l text-center overflow-hidden">
         <img class="h-48 sm:h-48 sm:w-48 flex-none bg-cover rounded-t sm:rounded-t-none sm:rounded-l text-center overflow-hidden" :src = "imageSrc" alt="Logo" height = "48" width = "48"/>
       </div>
@@ -11,13 +11,12 @@
 </template>
 
 <script setup>
-import { defineProps } from 'vue'
 
 const props = defineProps({
   title: String,
   content: String,
   imageSrc: String,
-  bgColor: String
+  bgColour: String
 })
 
 </script>
