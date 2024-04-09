@@ -1,9 +1,9 @@
 [
 	{
-		"id": 0,
+		"id": 1,
 		"colour": "red",
 		"title": "Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen für den PartizipationsHub",
-		"imageSrc": "@/assets/logo.svg",
+		"imageSrc": "/src/assets/BA-Veranstaltungen.png",
 		"description": "Im Fokus meiner Bachelorarbeit stand die Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen als Teil des Forschungsprojektes VernetzBar der Universität zu Lübeck. Als Basis wurde hierbei die digitale Open Source Software Decidim verwendet, welche die Einrichtung einer webbasierten Plattform speziell für die Partizipation ermöglicht.",
 		"content":[
 			{
@@ -17,10 +17,10 @@
 		]
 	},
 	{
-		"id": 1,
+		"id": 2,
 		"colour": "green",
 		"title": "Platzsy - Deine Spielplatzassistenz",
-		"imageSrc": "",
+		"imageSrc": "/src/assets/Platzy.png",
 		"description": "Platzsy - Deine Spielplatzassistenz ist ein Projekt, welches im Rahmen des Open Data Hackathons 2022/2023 in einer Gruppenarbeit entwickelt.",
 		"content":[
 			{
@@ -42,10 +42,10 @@
 		]
 	},
 	{
-		"id": 2,
+		"id": 3,
 		"colour": "primary",
 		"title": "Fallstudie/Hub?",
-		"imageSrc": "",
+		"imageSrc": "/src/assets/Platzy.png",
 		"description": "Derzeit noch in der Erstellung",
 		"content":[
 			{
