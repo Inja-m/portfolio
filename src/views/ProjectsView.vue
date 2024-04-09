@@ -1,6 +1,7 @@
 <template>
   <div v-for="project in projectContent" :key="project.id">
     <ProjectCard
+	  :id="project.id"
       :title="project.title"
       :content="project.description"
       :imageSrc="project.imageSrc"
