@@ -1,8 +1,9 @@
 <template>
-  <Menubar :model="items">
+  <div class="sm:max-w-[1024px] mx-auto p-4">
+     <Menubar :model="items">
     <template #start>
       <div>
-        <img src = "@/assets/logo.svg" alt="Logo" height = "35" width = "35"/>
+        <img src = "@/assets/logo.svg" alt="Logo" height = "45" width = "45"/>
       </div>
     </template>
     <template #item="{ item, props, hasSubmenu }">
@@ -20,6 +21,8 @@
     </template>
   </Menubar>
   <RouterView />
+  </div>
+ 
 </template>
 
 <script setup>
