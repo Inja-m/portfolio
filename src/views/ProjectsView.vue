@@ -1,5 +1,6 @@
 <template>
-  <div v-for="project in projectContent" :key="project.id">
+	<div class="container">
+		  <div v-for="project in projectContent" :key="project.id">
     <ProjectCard
 	  :id="project.id"
       :title="project.title"
@@ -9,6 +10,8 @@
 	  :imgLeft="project.id === 2 ? true : false"
     ></ProjectCard>
   </div>
+	</div>
+
 </template>
 
 <script setup>

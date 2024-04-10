@@ -1,18 +1,26 @@
 <template>
   <div>
-    <img :src="project.imageSrc" alt="Projektbild" />
-
-    <h2 class="text-2xl font-bold">{{ project.title }}</h2>
-    
-    {{ project.description }}
-
-    <div v-for="content in project.content" :key="project.id">
-      <h2 class="text-2xl font-bold">{{ content.subtitle }}</h2>
-      {{ content.description }}
-
+    <div :class="`bg-${project.colour}-200`">
+      <div class="container flex justify-center py-5">
+        <img class="sm:h-64 h-48" :src="project.imageSrc" alt="Projektbild" />
+      </div>
     </div>
-
-    <!-- Other project details here -->
+    <div class="container py-10">
+      <h1 class="text-surface-800 font-semibold text-2xl">
+        {{ project.title }}
+      </h1>
+      <p>{{ project.description }}</p>
+    </div>
+    <div  v-for="(content, index) in project.content" :key="content.subtitle">
+      <div :class="index % 2 === 0 ? `bg-${project.colour}-100` : ''">
+        <div class="container py-10">
+          <h2 class="text-surface-800 font-semibold text-xl">
+            {{ content.subtitle }}
+          </h2>
+          <p>{{ content.description }}</p>
+        </div>
+      </div>
+    </div>
   </div>
 </template>
 
@@ -22,7 +30,5 @@ import projectContent from '@/content/projects.json'
 
 const route = useRoute()
 const projectId = Number(route.params.id)
-const project = projectContent.find(item => item.id === projectId)
-
-
+const project = projectContent.find((item) => item.id === projectId)
 </script>

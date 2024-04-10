@@ -1,18 +1,17 @@
 @tailwind base;
 @tailwind utilities;
 @tailwind variants;
-@tailwind colors;
 
 :root {
-	--green-900: #05331E;
-	--green-800: #0A482B;
-	--green-700: #146640;
-	--green-600: #247F55;
-	--green-500: #35996A;
-	--green-400: #56CC95;
-	--green-300: #74EEB5;
+	--green-900:  #0E3305;
+	--green-800: #256614;
+	--green-700: #347D22;
+	--green-600: #43992E;
+	--green-500: #4FAB38;
+	--green-400: #63CE48;
+	--green-300: #75E05A;
 	--green-200: #89F9C5;
-	--green-100: #9DFFD1;
+	--green-100: #cbf5c1;
 	
 	--red-900: #840000;
 	--red-800: #A40404;
@@ -22,7 +21,7 @@
 	--red-400: #E74242;
 	--red-300: #ED615C;
 	--red-200: #F37C77;
-	--red-100: #F39894;
+	--red-100: #FFAFAB;
 
   --primary-50: 236 254 255;
   --primary-100: 207 250 254;
@@ -49,3 +48,27 @@
   --surface-900: 17 24 39;
   --surface-950: 8 8 8;
 }
+
+.container {
+    width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+@media (min-width: 640px) {
+    .container {
+        max-width: 640px
+    }
+}
+@media (min-width: 768px) {
+    .container {
+        max-width: 768px
+    }
+}
+@media (min-width: 1024px) {
+    .container {
+        max-width:1024px
+    }
+}
+
