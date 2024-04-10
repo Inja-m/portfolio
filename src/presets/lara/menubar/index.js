@@ -5,10 +5,7 @@ export default {
 
             // Flexbox
             'flex',
-			'justify-between',
-
-            // Spacing
-            'p-2'
+			'justify-between'
         ]
     },
     menu: ({ props }) => ({
@@ -63,9 +60,7 @@ export default {
 	start: {
 		class: [
 		// Spacing
-		'sm:px-3',
-
-		'justify-start'
+		'flex justify-start items-center'
 		]
 	},
     action: ({ context}) => ({
@@ -78,7 +73,7 @@ export default {
 
             // Spacing
             'py-3',
-            'px-5',
+            
 
 			{
 				'text-surface-500 dark:text-white/70': !context.item.item.active,
