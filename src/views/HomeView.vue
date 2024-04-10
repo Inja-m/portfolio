@@ -1,12 +1,12 @@
 <template>
   <div class="container mt-12">
-		<h1 class="outlined font-black text-5xl">
+		<h1 class="outlined font-black sm:text-5xl text-3xl">
       Moin, ich bin 
 			<span class="text-primary-500 hover:text-transparent">
 				<router-link to="/about"> Inja! </router-link> 
 			</span>
 		</h1>
-		<h1 class="outlined font-black text-5xl pt-6">
+		<h1 class="outlined font-black sm:text-5xl text-3xl sm:pt-6">
 			UX/UI Designer und Webentwickler
 		</h1>
 		<h2 class="text-surface-800 font-bold text-xl text-end pt-4">
@@ -31,7 +31,7 @@ import ProjectCard from '@/components/ProjectCard.vue'
 import projectContent from '@/content/projects.json'
 
 const project = projectContent.find((item) => item.id === 2)
-console.log(project)
+
 </script>
 
 

@@ -1,11 +1,11 @@
 <template>
 	<div>
-		<div class="container py-6">
+		<div class="container pt-3 sm:pt-6">
 			<Menubar :model="items">
 				<template #start>
-					<div>
-						<img src="@/assets/logo.svg" alt="Logo" height="80" width="80" />
-					</div>
+					<router-link to="/"> 
+						<img src="@/assets/logo.svg" alt="Logo"  class="h-8 w-8 sm:h-24 sm:w-24" />
+					</router-link>					
 				</template>
 				<template #item="{ item, props, hasSubmenu }">
 					<router-link v-if="item.route" v-slot="{ href, navigate }" :to="item.route" custom>
