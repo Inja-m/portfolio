@@ -1,10 +1,10 @@
 <template>
 	<div>
-		<div class="container py-2">
+		<div class="container py-6">
 			<Menubar :model="items">
 				<template #start>
 					<div>
-						<img src="@/assets/logo.svg" alt="Logo" height="45" width="45" />
+						<img src="@/assets/logo.svg" alt="Logo" height="80" width="80" />
 					</div>
 				</template>
 				<template #item="{ item, props, hasSubmenu }">

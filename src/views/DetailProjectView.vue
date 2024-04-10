@@ -1,7 +1,7 @@
 <template>
   <div>
     <div :class="`bg-${project.colour}-200`">
-      <div class="container flex justify-center py-5">
+      <div class="bg-primary-100 container flex justify-center py-5">
         <img class="sm:h-64 h-48" :src="project.imageSrc" alt="Projektbild" />
       </div>
     </div>
