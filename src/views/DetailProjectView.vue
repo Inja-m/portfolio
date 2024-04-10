@@ -9,7 +9,7 @@
       <h1 class="text-surface-800 font-semibold text-2xl">
         {{ project.title }}
       </h1>
-      <p>{{ project.description }}</p>
+      <p class="text-surface-800 text-base text-justify mr-12 pt-2">{{ project.description }}</p>
     </div>
     <div  v-for="(content, index) in project.content" :key="content.subtitle">
       <div :class="index % 2 === 0 ? `bg-${project.colour}-100` : ''">
@@ -17,7 +17,7 @@
           <h2 class="text-surface-800 font-semibold text-xl">
             {{ content.subtitle }}
           </h2>
-          <p>{{ content.description }}</p>
+					<p class="text-surface-800 text-base text-justify mr-12 pt-2">{{ content.description }}</p>
         </div>
       </div>
     </div>
