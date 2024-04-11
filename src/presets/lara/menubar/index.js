@@ -2,7 +2,6 @@ export default {
     root: {
         class: [
             'relative',
-
             // Flexbox
             'flex',
 			'justify-between'
@@ -43,7 +42,7 @@ export default {
         ]
     }),
     menuitem: {
-        class: 'sm:relative sm:w-auto w-full static'
+        class: 'sm:relative sm:w-auto w-full static sm:mx-1'
     },
     content: ({ props, context }) => ({
 
