@@ -18,7 +18,8 @@
 				Neben meiner Leidenschaft für Handball und kreative Projekte hege ich einen kleinen Faible für alte Vespas.
 			</div>
 			</div>
-			<div>
+			<div class="col-span-2 w-64 mx-auto">
+				<img src="@/assets/me.png">
 			</div>
 		</div>
 	</div>
