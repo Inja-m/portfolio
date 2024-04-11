@@ -1,6 +1,6 @@
 <template>
 	<div>
-		<div class="container pt-3 sm:pt-6">
+		<div class="container py-3 sm:py-6">
 			<Menubar :model="items">
 				<template #start>
 					<router-link to="/"> 
