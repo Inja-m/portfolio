@@ -13,7 +13,7 @@
 			mit Hintergrund in wissenschaftlicher Forschung.
 		</h2>
 	</div>  
-	<div class="container sm:mt-16 mt-8">
+	<div class="container sm:mt-16 my-6">
 		<p class="text-surface-800 tracking-wide uppercase font-light"> Ausgewähltes Projekt </p>
 		<ProjectCard
 	  	:id="project.id"
