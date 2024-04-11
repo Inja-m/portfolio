@@ -1,15 +1,16 @@
 <template>
 	<div class="container">
-		  <div v-for="project in projectContent" :key="project.id">
-    <ProjectCard
-	  :id="project.id"
-      :title="project.title"
-      :content="project.description"
-      :imageSrc="project.imageSrc"
-      :bgColour="project.colour"
-	  :imgLeft="project.id === 2 ? true : false"
-    ></ProjectCard>
-  </div>
+		<div v-for="project in projectContent" :key="project.id">
+			<div class=" my-6 sm:mb-20">
+				<ProjectCard :id="project.id" 
+					:title="project.title" 
+					:content="project.description" 
+					:imageSrc="project.imageSrc"
+					:bgColour="project.colour" 
+					:imgLeft="project.id === 2 ? true : false"></ProjectCard>
+			</div>
+
+		</div>
 	</div>
 
 </template>
