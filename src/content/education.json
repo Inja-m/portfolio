@@ -1,0 +1,20 @@
+ [
+	{
+		"id": 0,
+		"location": "Thomas-Mann-Schule Lübeck",
+		"title": "Abitur",
+		"time" : "07/2019"
+	},
+	{
+		"id": 1,
+		"location": "Universität zu Lübeck",
+		"title": "B.Sc. Medieninfoormatik",
+		"time" : "09/2019 - 12/2022"
+	},
+	{
+		"id": 2,
+		"location": "Universität zu Lübeck",
+		"title": "M.Sc. Medieninfoormatik",
+		"time" : "10/2022 - 2025"
+	}
+ ]

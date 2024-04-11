@@ -1,0 +1,20 @@
+[
+	{
+		"id": 0,
+		"title": "Studentische Hilfskraft",
+		"description": "Unterstützung im Übungsbetrieb der Lehrveranstaltung \"Einführung in die Programmierung\".",
+		"time": "10/2020 - 03/2021"
+	},
+	{
+		"id": 1,
+		"title": "Studentische Hilfskraft",
+		"description": "Studentische Hilfskraft in der Studiengangsorganisation. Betreuung der Öffentlichkeitsarbeit (Social Media, Webseite). Unterstützung und Projektbetreuung in der Lehrveranstaltung \"Einführung in die Medieninformatik\". Betreuung und Hilfestellung für die Studierenden des ersten Semesters. ",
+		"time": "09/2021 - 12/22"
+	},
+	{
+		"id": 2,
+		"title": "Wissenschaftliche Hilfskraft",
+		"description": "Wissenschaftliche Hilfskraft am Institut für multimediale und interaktive Systeme. Entwicklung am Partizipationshub.",
+		"time": "12/22 - Heute"
+	}
+]
