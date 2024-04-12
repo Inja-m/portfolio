@@ -3,25 +3,35 @@
 @tailwind variants;
 
 :root {
-	--green-900:  #0E3305;
-	--green-800: #256614;
-	--green-700: #347D22;
-	--green-600: #43992E;
-	--green-500: #4FAB38;
-	--green-400: #63CE48;
-	--green-300: #75E05A;
-	--green-200: #89F9C5;
-	--green-100: #cbf5c1;
-	
-	--red-900: #840000;
-	--red-800: #A40404;
-	--red-700: #C20B0B;
-	--red-600: #D81111;
-	--red-500: #E72B2B;
-	--red-400: #E74242;
-	--red-300: #ED615C;
-	--red-200: #F37C77;
-	--red-100: #FFAFAB;
+  --red-900: #450303;
+  --red-800: #5C0D0D;
+  --red-700: #731C1C;
+  --red-600: #8B2F2F;
+  --red-500: #A24646;
+  --red-400: #B96262;
+  --red-300: #D08383;
+  --red-200: #E8A8A8;
+  --red-100: #FFD1D1;
+
+  --green-900: #00160D;
+  --green-800: #073320;
+  --green-700: #145136;
+  --green-600: #276E4F;
+  --green-500: #418B6B;
+  --green-400: #61A889;
+  --green-300: #87C5AA;
+  --green-200: #B4E2CE;
+  --green-100: #E8FFF5;
+
+  --yellow-900: #CD9700;
+  --yellow-800: #E3A800;
+  --yellow-700: #FABC0E;
+  --yellow-600: #FBC83A;
+  --yellow-500: #FCD055;
+  --yellow-400: #FCD870;
+  --yellow-300: #FDDF8B;
+  --yellow-200: #FEE7A7;
+  --yellow-100: #FFF3D1;
 
   --primary-50: 236 254 255;
   --primary-100: 207 250 254;
