@@ -1,9 +1,9 @@
 <template>
 	<div>
-		<div :class="classColorHeader">
+		<div :class="`bg-${project.colour}-200`">
 			<div class="container sm:grid sm:grid-cols-2 sm:py-16 py-4">
 				<div class="flex justify-center sm:justify-end items-center">
-					<img class="sm:h-96 h-60" :src="project.imageSrc" alt="Projektbild" />
+					<img class="sm:h-96 h-60" :src="getImageUrl()" alt="Projektbild" />
 				</div>
 				<div class="flex justify-center items-center">
 					<div class="sm:p-8">
@@ -16,7 +16,7 @@
 			</div>
 		</div>
 		<div v-for="(content, index) in project.content" :key="content.subtitle">
-			<div :class="index % 2 === 0 ? '' : classColorContent">
+			<div :class="index % 2 === 0 ? '' : `bg-${project.colour}-100`">
 				<div class="container py-10">
 					<h2 class="text-surface-800 font-semibold text-xl">
 						{{ content.subtitle }}
@@ -36,8 +36,8 @@ const route = useRoute()
 const projectId = Number(route.params.id)
 const project = projectContent.find((item) => item.id === projectId)
 
-const classColorContent = 'bg-' + project.colour +'-100 bg-transparent'
-//const classColorContent2 = 'bg-' + project.colour +'-100 sm:bg-transparent'
-const classColorHeader = 'bg-' + project.colour +'-200'
+function getImageUrl() {
+  return new URL(`../assets/${project.imageSrc}`, import.meta.url)
+}
 
 </script>
