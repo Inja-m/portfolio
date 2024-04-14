@@ -82,8 +82,14 @@
 	{
 		"id": 3,
 		"colour": "yellow",
-		"title": "Fallstudie/Hub?",
-		"imageSrc": "Platzy.png",
-		"description": "Derzeit noch in der Erstellung"
+		"title": "Partizipationshub - PiTiPs",
+		"imageSrc": "Hub.png",
+		"description": "Derzeit noch in der Erstellung",
+		"content": [
+			{
+				"subtitle": "Folgt in Kürze",
+				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
+			}
+		]
 	}
 ]

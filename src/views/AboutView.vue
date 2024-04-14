@@ -75,9 +75,6 @@
 
 <script setup>
 import Timeline from 'primevue/timeline'
-import Card from 'primevue/card'
-
-import { ref } from 'vue'
 
 import educationContent from '@/content/education.json'
 import experienceContent from '@/content/experience.json'
