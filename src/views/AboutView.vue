@@ -4,9 +4,7 @@
 			<div class="col-span-3 ">
 				<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
       Moin, ich bin 
-			<span class="text-primary-500 hover:text-transparent">
-				<router-link to="/about"> Inja! </router-link> 
-			</span>
+			<router-link to="/about" class="link font-black"> Inja! </router-link> 
 		</h1>
 			<div class="text-base text-justify mt-5">
 				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck und plane voraussichtlich, 
@@ -24,7 +22,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container grid sm:grid-cols-5 pt-8">
+	<div class="container grid sm:grid-cols-5 sm:py-12 py-6">
 		<div class="col-span-3">
 			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
 				Berufserfahrung
