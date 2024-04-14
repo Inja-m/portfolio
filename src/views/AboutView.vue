@@ -1,21 +1,20 @@
 <template>
 	<div class="container">
-		<div class="container grid sm:grid-cols-5 mt-3">
+		<div class="container grid sm:grid-cols-5">
 			<div class="col-span-3 ">
 				<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
       Moin, ich bin 
-			<span class="text-primary-500 hover:text-transparent">
-				<router-link to="/about"> Inja! </router-link> 
-			</span>
+			<router-link to="/about" class="link font-black"> Inja! </router-link> 
 		</h1>
 			<div class="text-base text-justify mt-5">
-				Derzeit Studiere ich im Masterstudium Medieninformatik an der Universität zu Lübeck, 
-				voraussichtlich werde ich dieses Anfang 2025 abschließen. 
-				In meiner Freizeit tauche ich gerne in verschiedene kreative Projekte ein. 
-				Ob beim Skizzieren, beim Nähen von neuen individuellen Stücken oder beim Gestalten von Grafiken die ich später mit meinem Plotter umsetzten kann. 
-				Zudem bin ich gerne in Bewegung und offen für neue sportliche Herausforderungen. 
-				Bislang ist Handball jedoch meine treue Begleitung.
-				Neben meiner Leidenschaft für Handball und kreative Projekte hege ich einen kleinen Faible für alte Vespas.
+				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck und plane voraussichtlich, 
+				dieses im Frühjahr 2025 abzuschließen. 
+				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten. 
+				Sei es das Skizzieren, das Nähen individueller Stücke oder das Gestalten von Grafiken, 
+				die ich anschließend mit meinem Plotter umsetzen kann.
+				Zudem bin ich gerne in Bewegung und probiere gerne neue Sportarten aus. 
+				Gerade der Handball begleitet mich schon eine lange Zeit.
+				Abgesehen von meiner Leidenschaft für Handball und kreative Projekte hege ich auch eine Vorliebe für alte Vespas.
 			</div>
 			</div>
 			<div class="col-span-2 w-64 mx-auto">
@@ -23,7 +22,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="container grid sm:grid-cols-5 pt-8">
+	<div class="container grid sm:grid-cols-5 sm:py-12 py-6">
 		<div class="col-span-3">
 			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
 				Berufserfahrung
@@ -74,9 +73,6 @@
 
 <script setup>
 import Timeline from 'primevue/timeline'
-import Card from 'primevue/card'
-
-import { ref } from 'vue'
 
 import educationContent from '@/content/education.json'
 import experienceContent from '@/content/experience.json'

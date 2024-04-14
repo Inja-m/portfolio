@@ -2,7 +2,7 @@
 				<Menubar :model="items">
 				<template #start>
 					<router-link to="/"> 
-						<img src="@/assets/logo.svg" alt="Logo"  class="h-8 w-8 sm:h-24 sm:w-24" />
+						<img src="@/assets/logo.svg" alt="Logo"  class="h-8 w-8 sm:h-20 sm:w-20 transform hover:-rotate-12 transition duration-300 ease-in-out" />
 					</router-link>					
 				</template>
 				<template #item="{ item, props, hasSubmenu }">

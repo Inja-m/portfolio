@@ -1,10 +1,10 @@
 <template>
-	<div class="grid grid-cols-2 pt-6">
+	<div class="grid grid-cols-2">
 		<div class="font-light">
 			© Inja Mainhardt
 		</div>
 		<div class="text-end font-light">
-			Letzte Änderungen: 11.04.2024
+			Letzte Änderungen:  14.04.2024
 		</div>	
 	</div>
 </template>
