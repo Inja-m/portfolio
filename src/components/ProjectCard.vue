@@ -1,6 +1,6 @@
 <template>
 	<router-link :to="`/projects/${id}`">
-		<div class="w-full sm:max-w-full sm:flex sm:space-x-8 hover:drop-shadow-xl p-6 sm:p-0" :class="`bg-${bgColour}-200`">
+		<div class="w-full sm:max-w-full sm:flex sm:space-x-8 p-6 sm:p-0 transform hover:-rotate-[0.8deg] transition duration-300 ease-in-out" :class="`bg-${bgColour}-200`">
 			<div class="sm:h-64 h-48 flex-none justify-center p-6 hidden sm:block" :class="imgLeft ? 'order-2' : 'order-1'">
 				<img class="sm:max-h-64 max-h-48 sm:max-w-64 object-center flex-none item-center" :src="getImageUrl()" alt="Projektbild" />
 			</div>

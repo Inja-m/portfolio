@@ -2,10 +2,10 @@
 	<div class="grid-col">
 		<div class="flex justify-center gap-4 m-2">
 			<a href="mailto:inja@mainhardts.de" target="_blank">
-				<i class="text-surface-800 text-3xl pi pi-envelope"></i>
+				<i class="text-surface-800 text-3xl pi pi-envelope hover:-rotate-12 transition duration-300 ease-in-out"></i>
 			</a>
 			<a href="https://www.linkedin.com/in/inja-mainhardt-416709244/" target="_blank" rel="noopener noreferrer">
-				<i class="text-3xl linkedIn pi pi-linkedin"></i>
+				<i class="text-3xl linkedIn pi pi-linkedin hover:rotate-12 transition duration-300 ease-in-out"></i>
 			</a>
 		</div>
 		<h3 class="text-surface-800 font-semibold text-xl text-center">

@@ -1,8 +1,10 @@
 <template>
-  <div class="container mt-3">
+  <div class="container">
 		<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
       Moin, ich bin 
-			<router-link to="/about" class="link font-black"> Inja! </router-link> 
+			<router-link to="/about">
+        <span class="link font-black">Inja!</span>
+      </router-link> 
 		</h1>
 		<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
 			UX/UI Designer und Webentwickler
@@ -47,6 +49,6 @@ const project = projectContent.find((item) => item.id === 2)
 
 .link:hover {
 	-webkit-text-fill-color: white;
-		-webkit-text-stroke: 1px rgb(var(--surface-800));
-  }
+	-webkit-text-stroke: 1px rgb(var(--surface-800));
+}
 </style>
