@@ -6,6 +6,9 @@
       </div>
       <RouterView />
     </div>
+		<div class="container pb-3 sm:pb-6">
+      <Connect />
+    </div>
     <div class="container py-3 sm:py-6">
       <Footer />
     </div>
@@ -14,6 +17,7 @@
 
 <script setup>
 import Nav from '@/components/shared/Navigation.vue'
+import Connect from '@/components/shared/Connect.vue'
 import Footer from '@/components/shared/Footer.vue'
 </script>
 

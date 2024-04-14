@@ -1,5 +1,5 @@
 <template>
-	<div class="grid grid-cols-2 pt-6">
+	<div class="grid grid-cols-2">
 		<div class="font-light">
 			© Inja Mainhardt
 		</div>
