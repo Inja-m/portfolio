@@ -1,12 +1,12 @@
 <template>
 	<div class="container">
-		<div class="container grid sm:grid-cols-5">
-			<div class="col-span-3 ">
-				<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
+		<div class="container grid sm:grid-cols-7 sm:gap-8">
+			<div class="col-span-4 ">
+				<h1 class="sm:text-left text-center">
       Moin, ich bin 
 			<router-link to="/about" class="link font-black"> Inja! </router-link> 
 		</h1>
-			<div class="text-base text-justify mt-5">
+			<p class="text-base text-justify mt-5">
 				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck und plane voraussichtlich, 
 				dieses im Frühjahr 2025 abzuschließen. 
 				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten. 
@@ -15,64 +15,32 @@
 				Zudem bin ich gerne in Bewegung und probiere gerne neue Sportarten aus. 
 				Gerade der Handball begleitet mich schon eine lange Zeit.
 				Abgesehen von meiner Leidenschaft für Handball und kreative Projekte hege ich auch eine Vorliebe für alte Vespas.
+			</p>
 			</div>
-			</div>
-			<div class="col-span-2 w-64 mx-auto">
-				<img src="@/assets/me.png">
+			<div class="col-span-3 flex justify-center items-center">
+				<img src="@/assets/me.png" class="max-h-64">
 			</div>
 		</div>
 	</div>
-	<div class="container grid sm:grid-cols-5 sm:py-12 py-6">
-		<div class="col-span-3">
-			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
+	<div class="container grid sm:grid-cols-7 sm:gap-8 sm:pt-12  pt-6">
+		<div class="sm:col-span-4">
+			<h2 class="py-5 sm:text-left text-center">
 				Berufserfahrung
-			</h1>
-			<Timeline :value="experienceContent" align="left" class="customized-timeline">
-				<template #marker="slotProps">
-					<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" class="my-3">
-						<path
-							d="M160-120q-33 0-56.5-23.5T80-200v-440q0-33 23.5-56.5T160-720h160v-80q0-33 23.5-56.5T400-880h160q33 0 56.5 23.5T640-800v80h160q33 0 56.5 23.5T880-640v440q0 33-23.5 56.5T800-120H160Zm0-80h640v-440H160v440Zm240-520h160v-80H400v80ZM160-200v-440 440Z" />
-					</svg>
-				</template>
-				<template #content="slotProps">
-					<h2 class="text-surface-800 font-semibold text-xl">
-						{{ slotProps.item.title }}
-					</h2>
-					<h3 class="font-light">
-						{{ slotProps.item.time }}・{{ slotProps.item.company }}
-					</h3>
-					<p class="text-surface-800 text-base text-justify pt-2"> {{ slotProps.item.description }}</p>
-				</template>
-			</Timeline>
+			</h2>
+			<Line :item="experienceContent" icon="school" />
 
 		</div>
-		<div class="col-span-2">
-			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
+		<div class="sm:col-span-3">
+			<h2 class="py-4 sm:text-left text-center">
 				Ausbildung
-			</h1>
-			<Timeline :value="educationContent" align="left" class="customized-timeline">
-				<template #marker="slotProps">
-					<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" class="my-3">
-						<path
-							d="M480-120 200-272v-240L40-600l440-240 440 240v320h-80v-276l-80 44v240L480-120Zm0-332 274-148-274-148-274 148 274 148Zm0 241 200-108v-151L480-360 280-470v151l200 108Zm0-241Zm0 90Zm0 0Z" />
-					</svg>
-				</template>
-				<template #content="slotProps">
-					<h2 class="text-surface-800 font-semibold text-xl">
-						{{ slotProps.item.title }}
-					</h2>
-					<h3 class="font-light">
-						{{ slotProps.item.time }}・{{ slotProps.item.location }}
-					</h3>
-
-				</template>
-			</Timeline>
+			</h2>
+			<Line :item="educationContent" icon="work"/>
 		</div>
 	</div>
 </template>
 
 <script setup>
-import Timeline from 'primevue/timeline'
+import Line from '@/components/Timeline.vue'
 
 import educationContent from '@/content/education.json'
 import experienceContent from '@/content/experience.json'
