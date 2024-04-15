@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="container grid sm:grid-cols-5">
 			<div class="col-span-3 ">
-				<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
+				<h1 class="outlined font-bold text-center sm:text-left sm:text-5xl text-3xl">
       Moin, ich bin 
 			<router-link to="/about" class="link font-black"> Inja! </router-link> 
 		</h1>

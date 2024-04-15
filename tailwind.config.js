@@ -9,6 +9,9 @@ export default {
   ],
   theme: {
     extend: {
+			fontFamily: {
+				sans: ['Poppins']
+			},
 		colors: {
 			red: {
 				100: 'var(--red-100)',

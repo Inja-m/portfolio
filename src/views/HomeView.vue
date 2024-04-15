@@ -1,12 +1,12 @@
 <template>
   <div class="container">
-		<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
+		<h1 class="outlined font-bold text-center sm:text-left sm:text-5xl text-3xl">
       Moin, ich bin 
 			<router-link to="/about">
         <span class="link font-black">Inja!</span>
       </router-link> 
 		</h1>
-		<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
+		<h1 class="outlined font-bold text-center sm:text-left sm:text-5xl text-3xl">
 			UX/UI Designer und Webentwickler
 		</h1>
 		<h2 class="text-surface-800 font-bold text-xl text-end py-2">
