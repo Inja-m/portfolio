@@ -9,11 +9,12 @@
 		<h1 class="outlined font-black text-center sm:text-left sm:text-5xl text-3xl">
 			UX/UI Designer und Webentwickler
 		</h1>
-		<h2 class="text-surface-800 font-bold text-xl text-end">
+		<h2 class="text-surface-800 font-bold text-xl text-end py-2">
 			mit Hintergrund in wissenschaftlicher Forschung.
 		</h2>
 	</div>  
-	<div class="container sm:py-16 py-12">
+	<div class="container m-6 sm:m-0"></div>
+	<div class="container mt-4 sm:mt-12">
 		<p class="text-surface-800 tracking-wide uppercase font-light"> Ausgewähltes Projekt </p>
 		<ProjectCard
 	  	:id="project.id"

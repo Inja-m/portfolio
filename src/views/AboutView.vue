@@ -22,12 +22,12 @@
 			</div>
 		</div>
 	</div>
-	<div class="container grid sm:grid-cols-5 sm:py-12 py-6">
-		<div class="col-span-3">
+	<div class="container grid sm:grid-cols-5 sm:pt-12 pt-6 gap-4">
+		<div class="sm:col-span-3">
 			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
 				Berufserfahrung
 			</h1>
-			<Timeline :value="experienceContent" align="left" class="customized-timeline">
+			<Timeline :value="experienceContent" align="left" class="customized-timeline pr-6">
 				<template #marker="slotProps">
 					<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" class="my-3">
 						<path
@@ -41,12 +41,12 @@
 					<h3 class="font-light">
 						{{ slotProps.item.time }}・{{ slotProps.item.company }}
 					</h3>
-					<p class="text-surface-800 text-base text-justify pt-2"> {{ slotProps.item.description }}</p>
+					<p class="text-surface-800 sm:text-base sm:text-justify pt-2"> {{ slotProps.item.description }}</p>
 				</template>
 			</Timeline>
 
 		</div>
-		<div class="col-span-2">
+		<div class="sm:col-span-2">
 			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
 				Ausbildung
 			</h1>
