@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col min-h-screen justify center">
 		<div class="container my-3 sm:my-6">
-				<Nav />
+				<Navbar />
 			</div>
 		<div class="flex-grow flex-col flex justify-center">
 			<RouterView />
@@ -16,7 +16,7 @@
 </template>
 
 <script setup>
-import Nav from '@/components/shared/Navigation.vue'
+import Navbar from '@/components/shared/Navbar.vue'
 import Connect from '@/components/shared/Connect.vue'
 import Footer from '@/components/shared/Footer.vue'
 </script>
