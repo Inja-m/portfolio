@@ -2,11 +2,11 @@
 	<div class="container">
 		<div class="container grid sm:grid-cols-5">
 			<div class="col-span-3 ">
-				<h1 class="outlined font-bold text-center sm:text-left sm:text-5xl text-3xl">
+				<h1 class="text-left">
       Moin, ich bin 
 			<router-link to="/about" class="link font-black"> Inja! </router-link> 
 		</h1>
-			<div class="text-base text-justify mt-5">
+			<p class="text-base text-justify mt-5">
 				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck und plane voraussichtlich, 
 				dieses im Frühjahr 2025 abzuschließen. 
 				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten. 
@@ -15,7 +15,7 @@
 				Zudem bin ich gerne in Bewegung und probiere gerne neue Sportarten aus. 
 				Gerade der Handball begleitet mich schon eine lange Zeit.
 				Abgesehen von meiner Leidenschaft für Handball und kreative Projekte hege ich auch eine Vorliebe für alte Vespas.
-			</div>
+			</p>
 			</div>
 			<div class="col-span-2 w-64 mx-auto">
 				<img src="@/assets/me.png">
@@ -24,9 +24,9 @@
 	</div>
 	<div class="container grid sm:grid-cols-5 sm:pt-12 pt-6 gap-4">
 		<div class="sm:col-span-3">
-			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
+			<h2 class="px-8 py-4">
 				Berufserfahrung
-			</h1>
+			</h2>
 			<Timeline :value="experienceContent" align="left" class="customized-timeline pr-6">
 				<template #marker="slotProps">
 					<svg xmlns="http://www.w3.org/2000/svg" height="20" viewBox="0 -960 960 960" width="20" class="my-3">
@@ -35,21 +35,21 @@
 					</svg>
 				</template>
 				<template #content="slotProps">
-					<h2 class="text-surface-800 font-semibold text-xl">
+					<h3>
 						{{ slotProps.item.title }}
-					</h2>
-					<h3 class="font-light">
-						{{ slotProps.item.time }}・{{ slotProps.item.company }}
 					</h3>
-					<p class="text-surface-800 sm:text-base sm:text-justify pt-2"> {{ slotProps.item.description }}</p>
+					<h4 class="font-light">
+						{{ slotProps.item.time }}・{{ slotProps.item.company }}
+					</h4>
+					<p class="sm:text-base sm:text-justify pt-2"> {{ slotProps.item.description }}</p>
 				</template>
 			</Timeline>
 
 		</div>
 		<div class="sm:col-span-2">
-			<h1 class="text-surface-800 font-semibold text-xl px-8 py-4">
+			<h2 class="px-8 py-4">
 				Ausbildung
-			</h1>
+			</h2>
 			<Timeline :value="educationContent" align="left" class="customized-timeline">
 				<template #marker="slotProps">
 					<svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 -960 960 960" width="24" class="my-3">
@@ -58,12 +58,12 @@
 					</svg>
 				</template>
 				<template #content="slotProps">
-					<h2 class="text-surface-800 font-semibold text-xl">
+					<h3>
 						{{ slotProps.item.title }}
-					</h2>
-					<h3 class="font-light">
-						{{ slotProps.item.time }}・{{ slotProps.item.location }}
 					</h3>
+					<h4>
+						{{ slotProps.item.time }}・{{ slotProps.item.location }}
+					</h4>
 
 				</template>
 			</Timeline>

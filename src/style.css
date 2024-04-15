@@ -2,49 +2,123 @@
 @tailwind utilities;
 @tailwind variants;
 
+.link {
+  -webkit-text-fill-color: rgb(var(--primary-500));
+  -webkit-text-stroke: 1px rgb(var(--surface-800));
+}
+
+.link:hover {
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px rgb(var(--surface-800));
+}
+
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 @font-face {
   font-family: 'Poppins';
   font-style: normal;
   font-weight: 400;
   src: url('../fonts/poppins-v15-latin-regular.eot'); /* IE9 Compat Modes */
   src: local(''),
-       url('../fonts/poppins-v15-latin-regular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/poppins-v15-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/poppins-v15-latin-regular.woff') format('woff'), /* Modern Browsers */
-       url('../fonts/poppins-v15-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+    url('../fonts/poppins-v15-latin-regular.eot?#iefix')
+      format('embedded-opentype'),
+    /* IE6-IE8 */ url('../fonts/poppins-v15-latin-regular.woff2')
+      format('woff2'),
+    /* Super Modern Browsers */ url('../fonts/poppins-v15-latin-regular.woff')
+      format('woff'),
+    /* Modern Browsers */ url('../fonts/poppins-v15-latin-regular.ttf')
+      format('truetype'),
+    /* Safari, Android, iOS */
+      url('../fonts/poppins-v15-latin-regular.svg#Poppins') format('svg'); /* Legacy iOS */
+}
+
+h1 {
+	font-weight: 800;
+	-webkit-text-fill-color: white;
+  -webkit-text-stroke: 1px rgb(var(--surface-800));
+	font-size: 3rem; 
+  line-height: 1.5; 
+}
+
+h2 {
+  @apply text-surface-800;
+	font-weight: 700;
+	font-size: 1.4rem; 
+	line-height: 1.5; 
+}
+h3 {
+  @apply text-surface-800;
+	font-weight: 600;
+	font-size: 1.2rem; 
+	line-height: 1.5; 
+}
+
+
+h4 {
+  @apply text-surface-800 tracking-tight uppercase font-light;
+}
+
+
+@media (max-width: 640px) {
+  .container {
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+	h1 {
+    font-size: 2.5rem; 
+    line-height: 1.25; 
+  }
+	h2{
+		font-size: 1.5rem; 
+	}
+}
+
+@media (min-width: 640px) {
+  .container {
+    max-width: 640px;
+  }
+}
+
+@media (min-width: 1024px) {
+  .container {
+    max-width: 1024px;
+  }
 }
 
 :root {
   --red-900: #450303;
-  --red-800: #5C0D0D;
-  --red-700: #731C1C;
-  --red-600: #8B2F2F;
-  --red-500: #A24646;
-  --red-400: #B96262;
-  --red-300: #D08383;
-  --red-200: #E8A8A8;
-  --red-100: #FFD1D1;
+  --red-800: #5c0d0d;
+  --red-700: #731c1c;
+  --red-600: #8b2f2f;
+  --red-500: #a24646;
+  --red-400: #b96262;
+  --red-300: #d08383;
+  --red-200: #e8a8a8;
+  --red-100: #ffd1d1;
 
-  --green-900: #00160D;
+  --green-900: #00160d;
   --green-800: #073320;
   --green-700: #145136;
-  --green-600: #276E4F;
-  --green-500: #418B6B;
-  --green-400: #61A889;
-  --green-300: #87C5AA;
-  --green-200: #B4E2CE;
-  --green-100: #E8FFF5;
+  --green-600: #276e4f;
+  --green-500: #418b6b;
+  --green-400: #61a889;
+  --green-300: #87c5aa;
+  --green-200: #b4e2ce;
+  --green-100: #e8fff5;
 
-  --yellow-900: #CD9700;
-  --yellow-800: #E3A800;
-  --yellow-700: #FABC0E;
-  --yellow-600: #FBC83A;
-  --yellow-500: #FCD055;
-  --yellow-400: #FCD870;
-  --yellow-300: #FDDF8B;
-  --yellow-200: #FEE7A7;
-  --yellow-100: #FFF3D1;
+  --yellow-900: #cd9700;
+  --yellow-800: #e3a800;
+  --yellow-700: #fabc0e;
+  --yellow-600: #fbc83a;
+  --yellow-500: #fcd055;
+  --yellow-400: #fcd870;
+  --yellow-300: #fddf8b;
+  --yellow-200: #fee7a7;
+  --yellow-100: #fff3d1;
 
   --primary-50: 236 254 255;
   --primary-100: 207 250 254;
@@ -71,35 +145,3 @@
   --surface-900: 17 24 39;
   --surface-950: 8 8 8;
 }
-
-.container {
-
-  width: 100%;
-	margin-left: auto;
-	margin-right: auto;
-
-}
-
-@media (max-width: 640px) {
-	.container {
-		padding-left: 1rem;
-		padding-right: 1rem;
-	}
-}
-
-@media (min-width: 640px) {
-    .container {
-        max-width: 640px
-    }
-		.sm\:text-5xl {
-			font-size: 3rem;
-			line-height: 1.4;
-	}
-}
-
-@media (min-width: 1024px) {
-    .container {
-        max-width:1024px
-    }
-}
-

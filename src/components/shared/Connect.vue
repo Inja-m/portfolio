@@ -8,7 +8,7 @@
 				<i class="text-3xl linkedIn pi pi-linkedin hover:rotate-12 transition duration-300 ease-in-out"></i>
 			</a>
 		</div>
-		<h3 class="text-surface-800 font-semibold text-xl text-center">
+		<h3 class="text-center">
 			Fragen oder Interesse?
 		</h3>
 		<p class="text-surface-800 text-center"> Ich freue mich über Ihre Nachricht!</p>

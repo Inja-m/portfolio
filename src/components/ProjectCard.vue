@@ -5,9 +5,9 @@
 				<img class="sm:max-h-64 max-h-48 sm:max-w-64 object-center flex-none item-center" :src="getImageUrl()" alt="Projektbild" />
 			</div>
 			<div class="flex flex-col justify-center leading-normal sm:py-8" :class="imgLeft ? 'order-1' : 'order-2'">
-				<div class="text-surface-800 font-semibold text-xl mb-2 mr-12">
+				<h3 class="mb-2 mr-12">
 					{{ title }}
-				</div>
+				</h3>
 				<p class="text-surface-800 text-base text-justify sm:mr-12">{{ content }}</p>
 			</div>
 		</div>
