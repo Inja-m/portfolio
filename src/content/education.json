@@ -1,19 +1,19 @@
  [
 	{
 		"id": 2,
-		"location": "Universität zu Lübeck",
+		"company": "Universität zu Lübeck",
 		"title": "M.Sc. Medieninformatik",
 		"time" : "10/2022 - 2025"
 	},
 	{
 		"id": 1,
-		"location": "Universität zu Lübeck",
+		"company": "Universität zu Lübeck",
 		"title": "B.Sc. Medieninformatik",
 		"time" : "09/2019 - 12/2022"
 	},
 	{
 		"id": 0,
-		"location": "Thomas-Mann-Schule Lübeck",
+		"company": "Thomas-Mann-Schule Lübeck",
 		"title": "Abitur",
 		"time" : "07/2019"
 	}
