@@ -7,10 +7,10 @@
 				</div>
 				<div class="flex justify-center items-center">
 					<div class="sm:p-8">
-						<h1 class="text-surface-800 font-semibold sm:text-2xl text-xl">
+						<h2>
 							{{ project.title }}
-						</h1>
-						<p class="text-surface-800 text-base text-justify pt-2">{{ project.description }}</p>
+						</h2>
+						<p class="text-base text-justify pt-2">{{ project.description }}</p>
 					</div>
 				</div>
 			</div>
@@ -18,10 +18,10 @@
 		<div v-for="(content, index) in project.content" :key="content.subtitle">
 			<div :class="index % 2 === 0 ? '' : `bg-${project.colour}-100`">
 				<div class="container py-10">
-					<h2 class="text-surface-800 font-semibold text-xl">
+					<h3>
 						{{ content.subtitle }}
-					</h2>
-					<p class="text-surface-800 text-base text-justify pt-2">{{ content.description }}</p>
+					</h3>
+					<p class="text-base text-justify pt-2">{{ content.description }}</p>
 					<div v-for="(media) in content.media">
 						<div v-if="media.imageSrc" class="pt-10">
 							<div class="flex justify-center items-center">
