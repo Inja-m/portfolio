@@ -1,8 +1,8 @@
 <template>
 	<div class="flex flex-col min-h-screen justify center">
 		<div class="container my-3 sm:my-6">
-				<Navbar />
-			</div>
+			<Navbar />
+		</div>
 		<div class="flex-grow flex-col flex justify-center">
 			<RouterView />
 		</div>

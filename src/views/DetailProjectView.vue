@@ -18,9 +18,9 @@
 		<div v-for="(content, index) in project.content" :key="content.subtitle">
 			<div :class="index % 2 === 0 ? '' : `bg-${project.colour}-100`">
 				<div class="container py-10">
-					<h3>
+					<h2>
 						{{ content.subtitle }}
-					</h3>
+					</h2>
 					<p class="text-base text-justify pt-2">{{ content.description }}</p>
 					<div v-for="(media) in content.media">
 						<div v-if="media.imageSrc" class="pt-10">
