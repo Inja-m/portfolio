@@ -1,5 +1,4 @@
 <template>
-
 	<div class="container grid sm:grid-cols-7 sm:gap-8">
 		<div class="col-span-4 ">
 			<h1 class="sm:text-left text-center">
@@ -23,7 +22,6 @@
 			<img src="@/assets/me.png" class="max-h-64">
 		</div>
 	</div>
-
 	<div class="container grid sm:grid-cols-7 sm:gap-8 sm:pt-12  pt-6">
 		<div class="sm:col-span-4">
 			<h2 class="py-5 sm:text-left text-center">

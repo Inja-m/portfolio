@@ -7,7 +7,6 @@
 			Jedes Projekt ist eine Gelegenheit für mich, meinen Horizont zu erweitern und Neues zu lernen.
 		</h2>
 	</div>
-
 	<div v-for="project in projectContent" :key="project.id" class="container mt-10 sm:mt-16">
 		<ProjectCard :id="project.id" :title="project.title" :content="project.description" :imageSrc="project.imageSrc"
 			:bgColour="project.colour" :imgLeft="project.id === 2 ? true : false"></ProjectCard>
