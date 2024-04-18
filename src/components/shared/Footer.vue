@@ -4,7 +4,7 @@
 			© Inja Mainhardt
 		</div>
 		<div class="text-end font-light">
-			Letzte Änderungen:  15.04.2024
+			Letzte Änderungen:  18.04.2024
 		</div>	
 	</div>
 </template>
