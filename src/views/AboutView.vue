@@ -1,6 +1,6 @@
 <template>
-	<div class="container grid sm:grid-cols-7 sm:gap-8">
-		<div class="col-span-4 ">
+	<div class="container grid sm:grid-cols-7 gap-8">
+		<div class="sm:col-span-4 ">
 			<h1 class="sm:text-left text-center">
 				Moin, ich bin
 				<router-link to="/about" class="link font-black"> Inja! </router-link>
@@ -18,13 +18,22 @@
 				Vespas.
 			</p>
 		</div>
-		<div class="col-span-3 flex justify-center items-center">
-			<img src="@/assets/me.png" class="max-h-64">
+		<div class="sm:col-span-3 flex justify-center items-center">
+			<div class="flex-col flex justify-center gap-6">
+						<img src="@/assets/me.png" class="max-h-60">
+						<a class="bg-transparent hover:bg-primary-500 font-semibold py-2 border border-surface-800 rounded inline-flex items-center flex justify-center" href="/src/assets/Lebenslauf.pdf" target="_blank" >
+							<span class="material-symbols-outlined">
+								download
+							</span>	
+							<span>Lebenslauf</span>
+						</a>
+			</div>
+	
 		</div>
 	</div>
 	<div class="container grid sm:grid-cols-7 sm:gap-8 sm:pt-12  pt-6">
 		<div class="sm:col-span-4">
-			<h2 class="py-5 sm:text-left text-center">
+			<h2 class="py-4 sm:text-left text-center">
 				Berufserfahrung
 			</h2>
 			<Line :item="experienceContent" icon="school" />
