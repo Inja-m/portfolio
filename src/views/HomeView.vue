@@ -7,10 +7,10 @@
       </router-link> 
 		</h1>
 		<h1 class="text-center sm:text-left">
-			UX/UI Designer und Webentwickler
+			UX/UI Designerin und Webentwicklerin
 		</h1>
 		<h2 class="text-end py-2">
-			mit Hintergrund in wissenschaftlicher Forschung.
+			mit Erfahrungen in der wissenschaftlicher Forschung.
 		</h2>
 	</div>  
 	<div class="container m-6 sm:m-0"></div>

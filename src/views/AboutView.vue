@@ -6,16 +6,14 @@
 				<router-link to="/about" class="link font-black"> Inja! </router-link>
 			</h1>
 			<p class="text-base text-justify mt-5">
-				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck und plane
-				voraussichtlich,
-				dieses im Frühjahr 2025 abzuschließen.
-				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten.
-				Sei es das Skizzieren, das Nähen individueller Stücke oder das Gestalten von Grafiken,
-				die ich anschließend mit meinem Plotter umsetzen kann.
-				Zudem bin ich gerne in Bewegung und probiere gerne neue Sportarten aus.
-				Gerade der Handball begleitet mich schon eine lange Zeit.
-				Abgesehen von meiner Leidenschaft für Handball und kreative Projekte hege ich auch eine Vorliebe für alte
-				Vespas.
+				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck, 
+				welches ich voraussichtlich im Frühjahr 2025 abschließen werde. 
+				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten, 
+				wie zum Beispiel das Skizzieren, das Nähen individueller Stücke oder auch das Gestalten von Grafiken, 
+				welche ich anschließend mit meinem Plotter umsetzen kann. 
+				Zudem bin ich gerne in Bewegung und probiere neue Sportarten aus, 
+				gerade der Handball begleitet mich schon seit vielen Jahren. 
+				Abgesehen davon hege ich auch eine Vorliebe für alte Vespa-Roller aus Italien.
 			</p>
 		</div>
 		<div class="sm:col-span-3 flex justify-center items-center">
