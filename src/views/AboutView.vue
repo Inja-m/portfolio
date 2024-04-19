@@ -19,7 +19,7 @@
 		<div class="sm:col-span-3 flex justify-center items-center">
 			<div class="flex-col flex justify-center gap-6">
 						<img src="@/assets/me.png" class="max-h-60">
-						<a class="bg-transparent hover:bg-primary-500 font-semibold py-2 border border-surface-800 rounded inline-flex items-center flex justify-center" href="/src/assets/Lebenslauf.pdf" target="_blank" >
+						<a class="bg-transparent hover:bg-primary-500 font-semibold py-2 border border-surface-800 rounded inline-flex items-center flex justify-center" :href=" getUrl('Lebenslauf.pdf')" target="_blank" >
 							<span class="material-symbols-outlined">
 								download
 							</span>	
@@ -52,6 +52,9 @@ import Line from '@/components/Timeline.vue'
 import educationContent from '@/content/education.json'
 import experienceContent from '@/content/experience.json'
 
+function getUrl(src) {
+	return new URL(`../assets/${src}`, import.meta.url)
+}
 </script>
 
 <style lang="scss" scoped>
