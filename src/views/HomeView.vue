@@ -10,7 +10,7 @@
 			UX/UI Designerin und Webentwicklerin
 		</h1>
 		<h2 class="text-end py-2">
-			mit Erfahrungen in der wissenschaftlicher Forschung.
+			mit Erfahrungen in der wissenschaftlichen Forschung.
 		</h2>
 	</div>  
 	<div class="container m-6 sm:m-0"></div>
