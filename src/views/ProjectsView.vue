@@ -4,7 +4,7 @@
 			Entdecken Sie meine Projekte
 		</h1>
 		<h2 class="text-center sm:text-end py-2">
-			Jedes Projekt ist eine Gelegenheit für mich,meinen Horizont zu erweitern und neue Inhalte zu erlernen.
+			Jedes Projekt ist eine Gelegenheit für mich, meinen Horizont zu erweitern und neue Inhalte zu erlernen.
 		</h2>
 	</div>
 	<div v-for="project in projectContent" :key="project.id" class="container mt-10 sm:mt-16">
