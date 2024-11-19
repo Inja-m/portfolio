@@ -7,24 +7,24 @@
 			</h1>
 			<p class="text-base text-justify mt-5">
 				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck, 
-				welches ich voraussichtlich im Frühjahr 2025 abschließen werde. 
+				welches ich voraussichtlich im Sommer 2025 abschließen werde. 
 				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten, 
 				wie zum Beispiel das Skizzieren, das Nähen individueller Stücke oder auch das Gestalten von Grafiken, 
 				welche ich anschließend mit meinem Plotter umsetzen kann. 
 				Zudem bin ich gerne in Bewegung und probiere neue Sportarten aus, 
 				gerade der Handball begleitet mich schon seit vielen Jahren. 
-				Abgesehen davon hege ich auch eine Vorliebe für alte Vespa-Roller aus Italien.
+				Abgesehen davon hege ich auch eine Vorliebe für alte Vespas.
 			</p>
 		</div>
 		<div class="sm:col-span-3 flex justify-center items-center">
 			<div class="flex-col flex justify-center gap-6">
 						<img src="@/assets/me.png" class="max-h-60">
-						<a class="bg-transparent hover:bg-primary-500 font-semibold py-2 border border-surface-800 rounded inline-flex items-center flex justify-center" :href=" getUrl('Lebenslauf.pdf')" target="_blank" >
+						<!--<a class="bg-transparent hover:bg-primary-500 font-semibold py-2 border border-surface-800 rounded inline-flex items-center flex justify-center" :href=" getUrl('Lebenslauf.pdf')" target="_blank" >
 							<span class="material-symbols-outlined">
 								download
 							</span>	
 							<span>Lebenslauf</span>
-						</a>
+						</a>-->
 			</div>
 	
 		</div>
@@ -52,9 +52,9 @@ import Line from '@/components/Timeline.vue'
 import educationContent from '@/content/education.json'
 import experienceContent from '@/content/experience.json'
 
-function getUrl(src) {
-	return new URL(`../assets/${src}`, import.meta.url)
-}
+//function getUrl(src) {
+//	return new URL(`../assets/${src}`, import.meta.url)
+//}
 </script>
 
 <style lang="scss" scoped>

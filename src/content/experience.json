@@ -1,9 +1,23 @@
 [
 	{
+		"id": 4,
+		"title": "Werkstudent",
+		"description": "Umsetzung der Erkenntnisse aus der Analyse meines Praktikums. Tieferes auseinandersetzten mit der agilen Arbeitsweise und den Atlassian Produkten.",
+		"time": "09/2024 - Heute",
+		"company": "Dirk Rossmann GmbH"
+	},
+	{
+		"id": 3,
+		"title": "Praktikum Wissensmanagement IT",
+		"description": "Der Schwerpunkt meiner Arbeit lag auf der Analyse und Optimierung von Support-Prozessen, bei der Nutzung eines internen Systems.",
+		"time": "06/2024 - 09/2024",
+		"company": "Dirk Rossmann GmbH"
+	},
+	{
 		"id": 2,
 		"title": "Wissenschaftliche Hilfskraft",
-		"description": "Wissenschaftliche Hilfskraft am Institut für multimediale und interaktive Systeme. Entwicklung am Partizipationshub.",
-		"time": "12/2022 - Heute",
+		"description": "Wissenschaftliche Hilfskraft am Institut für multimediale und interaktive Systeme. Durchführung von Co-Design Workshops und Entwicklung am Partizipationshub.",
+		"time": "12/2022 - 09/2024",
 		"company": "Universität zu Lübeck"
 	},
 	{
