@@ -16,9 +16,9 @@
 </template>
 
 <script setup>
-import Navbar from '@/components/shared/Navbar.vue'
-import Connect from '@/components/shared/Connect.vue'
-import Footer from '@/components/shared/Footer.vue'
+import Navbar from './components/shared/Navbar.vue'
+import Connect from './components/shared/Connect.vue'
+import Footer from './components/shared/Footer.vue'
 </script>
 
 <style></style>

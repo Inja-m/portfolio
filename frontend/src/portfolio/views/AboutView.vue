@@ -47,10 +47,10 @@
 </template>
 
 <script setup>
-import Line from '@/components/Timeline.vue'
+import Line from '../components/Timeline.vue'
 
-import educationContent from '@/content/education.json'
-import experienceContent from '@/content/experience.json'
+import educationContent from '../content/education.json'
+import experienceContent from '../content/experience.json'
 
 //function getUrl(src) {
 //	return new URL(`../assets/${src}`, import.meta.url)

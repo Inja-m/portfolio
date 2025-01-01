@@ -14,7 +14,7 @@
 </template>
 
 <script setup>
-import ProjectCard from '@/components/ProjectCard.vue'
+import ProjectCard from '../components/ProjectCard.vue'
 
-import projectContent from '@/content/projects.json'
+import projectContent from '../content/projects.json'
 </script>

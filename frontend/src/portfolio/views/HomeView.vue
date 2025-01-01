@@ -28,8 +28,8 @@
 </template>
 
 <script setup>
-import ProjectCard from '@/components/ProjectCard.vue'
-import projectContent from '@/content/projects.json'
+import ProjectCard from '../components/ProjectCard.vue'
+import projectContent from '../content/projects.json'
 
 const project = projectContent.find((item) => item.id === 2)
 

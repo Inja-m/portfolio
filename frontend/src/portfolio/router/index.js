@@ -14,26 +14,26 @@ const router = createRouter({
       name: 'about',
       component: () => import('../views/AboutView.vue')
     },
-	{
-		path: '/projects',
-		name: 'projects',
-		children: [
-			{
-				path: '',
-				name: 'projects',
-				component: () => import('../views/ProjectsView.vue'),
-			},
-			{
-			  path: ':id', 
-			  name: 'projectDetails',
-			  component: () => import('../views/DetailProjectView.vue')
-			}
-		  ]
-	}
+    {
+      path: '/projects',
+      name: 'projects',
+      children: [
+        {
+          path: '',
+          name: 'projects',
+          component: () => import('../views/ProjectsView.vue')
+        },
+        {
+          path: ':id',
+          name: 'projectDetails',
+          component: () => import('../views/DetailProjectView.vue')
+        }
+      ]
+    }
   ],
-	scrollBehavior() {
-		window.scrollTo(0,0);
-	}
+  scrollBehavior() {
+    window.scrollTo(0, 0)
+  }
 })
 
 export default router
