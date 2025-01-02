@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "emotions",
+  "info": {
+    "singularName": "emotion",
+    "pluralName": "emotions",
+    "displayName": "Emotion"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "category": {
+      "type": "enumeration",
+      "enum": [
+        "Gleichgültigkeit",
+        "Angst",
+        "Ärger",
+        "Abneigung",
+        "Niedergeschlagenheit",
+        "Zuneigung",
+        "Freude",
+        "Scham",
+        "Trauer"
+      ]
+    }
+  }
+}

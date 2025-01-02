@@ -1,7 +1,7 @@
 <template>
 	<div class="flex flex-col min-h-screen justify center">
 		<div class="container my-3 sm:my-6">
-			<Navbar />
+			<Navbar :links="navLinks" />
 		</div>
 		<div class="flex-grow flex-col flex justify-center">
 			<RouterView />
@@ -16,9 +16,15 @@
 </template>
 
 <script setup>
-import Navbar from './components/shared/Navbar.vue'
+import Navbar from '../components/Navbar.vue'
 import Connect from './components/shared/Connect.vue'
 import Footer from './components/shared/Footer.vue'
+
+const navLinks = [
+	{ path: '/', label: 'Home' },
+	{ path: '/projects', label: 'Projekte' },
+	{ path: '/about', label: 'Über mich' }
+]
 </script>
 
 <style></style>

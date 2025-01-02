@@ -369,6 +369,108 @@ export interface AdminUser extends Struct.CollectionTypeSchema {
   };
 }
 
+export interface ApiCheckInCheckIn extends Struct.CollectionTypeSchema {
+  collectionName: 'check_ins';
+  info: {
+    description: '';
+    displayName: 'CheckIn';
+    pluralName: 'check-ins';
+    singularName: 'check-in';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    body: Schema.Attribute.Text;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    emotions: Schema.Attribute.Relation<'oneToMany', 'api::emotion.emotion'>;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::check-in.check-in'
+    > &
+      Schema.Attribute.Private;
+    needs: Schema.Attribute.Text;
+    publishedAt: Schema.Attribute.DateTime;
+    thoughts: Schema.Attribute.Text;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    values: Schema.Attribute.Relation<'oneToMany', 'api::todo.todo'>;
+  };
+}
+
+export interface ApiEmotionEmotion extends Struct.CollectionTypeSchema {
+  collectionName: 'emotions';
+  info: {
+    displayName: 'Emotion';
+    pluralName: 'emotions';
+    singularName: 'emotion';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    category: Schema.Attribute.Enumeration<
+      [
+        'Gleichg\u00FCltigkeit',
+        'Angst',
+        '\u00C4rger',
+        'Abneigung',
+        'Niedergeschlagenheit',
+        'Zuneigung',
+        'Freude',
+        'Scham',
+        'Trauer',
+      ]
+    >;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<
+      'oneToMany',
+      'api::emotion.emotion'
+    > &
+      Schema.Attribute.Private;
+    name: Schema.Attribute.String;
+    publishedAt: Schema.Attribute.DateTime;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
+export interface ApiTodoTodo extends Struct.CollectionTypeSchema {
+  collectionName: 'todos';
+  info: {
+    description: '';
+    displayName: 'Todo';
+    pluralName: 'todos';
+    singularName: 'todo';
+  };
+  options: {
+    draftAndPublish: true;
+  };
+  attributes: {
+    check_in: Schema.Attribute.Relation<'manyToOne', 'api::check-in.check-in'>;
+    condition: Schema.Attribute.Enumeration<['open', 'done', 'failed']>;
+    createdAt: Schema.Attribute.DateTime;
+    createdBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+    locale: Schema.Attribute.String & Schema.Attribute.Private;
+    localizations: Schema.Attribute.Relation<'oneToMany', 'api::todo.todo'> &
+      Schema.Attribute.Private;
+    publishedAt: Schema.Attribute.DateTime;
+    task: Schema.Attribute.String;
+    updatedAt: Schema.Attribute.DateTime;
+    updatedBy: Schema.Attribute.Relation<'oneToOne', 'admin::user'> &
+      Schema.Attribute.Private;
+  };
+}
+
 export interface PluginContentReleasesRelease
   extends Struct.CollectionTypeSchema {
   collectionName: 'strapi_releases';
@@ -878,6 +980,9 @@ declare module '@strapi/strapi' {
       'admin::transfer-token': AdminTransferToken;
       'admin::transfer-token-permission': AdminTransferTokenPermission;
       'admin::user': AdminUser;
+      'api::check-in.check-in': ApiCheckInCheckIn;
+      'api::emotion.emotion': ApiEmotionEmotion;
+      'api::todo.todo': ApiTodoTodo;
       'plugin::content-releases.release': PluginContentReleasesRelease;
       'plugin::content-releases.release-action': PluginContentReleasesReleaseAction;
       'plugin::i18n.locale': PluginI18NLocale;

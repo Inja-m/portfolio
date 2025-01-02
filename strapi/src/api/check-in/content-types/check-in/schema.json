@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "check_ins",
+  "info": {
+    "singularName": "check-in",
+    "pluralName": "check-ins",
+    "displayName": "CheckIn",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "body": {
+      "type": "text"
+    },
+    "thoughts": {
+      "type": "text"
+    },
+    "needs": {
+      "type": "text"
+    },
+    "emotions": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::emotion.emotion"
+    },
+    "values": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::todo.todo",
+      "mappedBy": "check_in"
+    }
+  }
+}

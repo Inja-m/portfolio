@@ -25,7 +25,7 @@ export default defineConfig({
             if (req.originalUrl === "/admin") {
 							res.writeHead(302, { Location: "/admin/" });
 							res.end();
-						} else if (req.originalUrl.startsWith("/admin/")) {
+						} else if (req.originalUrl.startsWith("/admin")) {
 							req.url = "/admin/index.html";
 						}
             next();
