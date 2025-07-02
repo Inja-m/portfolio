@@ -6,11 +6,11 @@
         <span class="link font-black">Inja!</span>
       </router-link> 
 		</h1>
-		<h1 class="text-center sm:text-left">
+		<!--<h1 class="text-center sm:text-left">
 			UX/UI Designerin und Webentwicklerin
-		</h1>
+		</h1>-->
 		<h2 class="text-end py-2">
-			mit Erfahrungen in der wissenschaftlichen Forschung.
+			zwischen Nutzerfokus, technischer Umsetzung und Teamarbeit zuhause.
 		</h2>
 	</div>  
 	<div class="container m-6 sm:m-0"></div>

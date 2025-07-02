@@ -1,6 +1,19 @@
 [
 	{
 		"id": 1,
+		"colour": "yellow",
+		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
+		"imageSrc": "Masterarbeit.png",
+		"description": "Entwicklung eines Systemes, das Teilnehmenden auch nach dem Workshop zeigt, was mit ihren Beiträgen passiert - damit sie den Auswertungsprozess besser nachvollziehen, mitverfolgen und mitgestalten können.",
+		"content": [
+			{
+				"subtitle": "Folgt in Kürze",
+				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
+			}
+		]
+	},
+	{
+		"id": 2,
 		"colour": "green",
 		"title": "Platzsy - Deine Spielplatzassistenz",
 		"imageSrc": "Platzy.png",
@@ -26,19 +39,6 @@
 			{
 				"subtitle": "Ausblick",
 				"description": "Die entwickelte Web-App kann somit als Basis dienen, den Funktionsumfang über das MVP hinaus zu erweitern. Hierfür wurden bereits einige Features definiert, wie zum Beispiel eine Profilfunktion, um bereits besuchte Spielplätze zu protokollieren und Filtereinstellungen persistent zu speichern. Weiterhin wurde eine Auslastungsanzeige als relevante Funktion eingestuft, welche aufgrund fehlender Datengrundlage noch nicht umgesetzt werden konnte. Weiterhin gilt es, die Datengrundlage, welche von der Gruppe verwendet wurde, fundierter auszugestalten. So konnten im Rahmen des Hackathons nur von ca. 15 Spielplätzen detaillierte Daten (inklusive Fotos) aufbereitet werden. Die restlichen Daten wurden von OpenStreetMap integriert, sodass die Korrektheit dieser Datensätze nicht garantiert werden kann. Um den nutzerzentrierten Ansatz fortzusetzen, sollte ein Austausch mit potenziellen Nutzenden ermöglicht werden, sodass Funktionalitäten und Umsetzungen im Rahmen von User Studies getestet werden können. Ein Einstieg könnte sein, gemeinsam mit der Stadt und ausgewählten Nutzenden eine Fokusgruppe zu bilden, welche den aktuellen Stand gemeinsam weiterentwickelt."
-			}
-		]
-	},
-	{
-		"id": 2,
-		"colour": "yellow",
-		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
-		"imageSrc": "Masterarbeit.png",
-		"description": "Entwicklung eines Systemes, das Teilnehmenden auch nach dem Workshop zeigt, was mit ihren Beiträgen passiert - damit sie den Auswertungsprozess besser nachvollziehen, mitverfolgen und mitgestalten können.",
-		"content": [
-			{
-				"subtitle": "Folgt in Kürze",
-				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
 			}
 		]
 	},
