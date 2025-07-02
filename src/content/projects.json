@@ -1,5 +1,48 @@
 [
 	{
+		"id": 1,
+		"colour": "green",
+		"title": "Platzsy - Deine Spielplatzassistenz",
+		"imageSrc": "Platzy.png",
+		"description": "Platzsy - Deine Spielplatzassistenz ist ein Projekt, welches im Rahmen des Open Data Hackathons 2022/2023 in einer Gruppenarbeit entwickelt.",
+		"content":[
+			{
+				"subtitle": "Projektbeschreibung",
+				"description": "Platzsy ist eine Anwendung, die im Rahmen des Open Data Hackathons 2022/2023 entwickelt wurde, um Eltern bei der Suche nach dem optimalen Spielplatz zu unterstützen. In einem hektischen Alltag, der von Arztterminen, KiTa-Organisation und Haushaltsaufgaben geprägt ist, bleibt wenig Zeit für aufwendige Recherchen. Auch wenn man zunächst annehmen könnte, die Spieplatzauswahl sei einfach – man sucht sich eben einen Passenden in der Nähe – sieht das in der Realität völlig anders aus. Spätestens, wenn man die Bedürfnisse mehrerer Kinder unterschiedlicher Altersstufen vereinen möchte, steht man vor einer großen Herausforderung. Platzsy löst dieses Problem, indem es Eltern ermöglicht, schnell und unkompliziert den passenden Spielplatz für ihre Kinder zu finden. Schluss mit zeitraubenden Ausprobier-Manövern – Platzsy macht die Auswahl einfach und effizient."
+			},
+			{
+				"subtitle": "Vorgehen",
+				"description": "Um trotz des begrenzten Zeitrahmens eine nutzerzentrierte Gestaltung zu gewährleisten, wurde zunächst eine Analyse durchgeführt, die die Nutzergruppen Eltern, KiTas und Stadt näher betrachtete. Basierend auf einer detaillierten Beschreibung der Nutzergruppen und entsprechender Szenarien wurden Use Cases abgeleitet, priorisiert und ein Product Backlog definiert. Damit sich während der Entwicklung auf die wesentliche Funktionen fokussiert werden konnte, wurde ein MVP (Minimum Viable Product) definiert."
+			},
+			{
+				"subtitle": "Die Anwendung",
+				"description": "Die Web-App wurde mithilfe Strapi für das Backend, Vue.js für das Frontend und Vuestic für das UI-Design erstellt. Die Datenbasis bilden Daten von OpenStreetMap sowie von Gruppenmitgliedern gesammelte Daten. Die MVP enthält eine Kartenübersicht der Spielplätze und eine detaillierte Ansicht jedes Spielplatzes mit Filteroptionen und Bewertungsmöglichkeiten.",
+				"media" : [
+					{
+					"videoSrc": "Platzsy.mp4"
+					}
+				]
+			},
+			{
+				"subtitle": "Ausblick",
+				"description": "Die entwickelte Web-App kann somit als Basis dienen, den Funktionsumfang über das MVP hinaus zu erweitern. Hierfür wurden bereits einige Features definiert, wie zum Beispiel eine Profilfunktion, um bereits besuchte Spielplätze zu protokollieren und Filtereinstellungen persistent zu speichern. Weiterhin wurde eine Auslastungsanzeige als relevante Funktion eingestuft, welche aufgrund fehlender Datengrundlage noch nicht umgesetzt werden konnte. Weiterhin gilt es, die Datengrundlage, welche von der Gruppe verwendet wurde, fundierter auszugestalten. So konnten im Rahmen des Hackathons nur von ca. 15 Spielplätzen detaillierte Daten (inklusive Fotos) aufbereitet werden. Die restlichen Daten wurden von OpenStreetMap integriert, sodass die Korrektheit dieser Datensätze nicht garantiert werden kann. Um den nutzerzentrierten Ansatz fortzusetzen, sollte ein Austausch mit potenziellen Nutzenden ermöglicht werden, sodass Funktionalitäten und Umsetzungen im Rahmen von User Studies getestet werden können. Ein Einstieg könnte sein, gemeinsam mit der Stadt und ausgewählten Nutzenden eine Fokusgruppe zu bilden, welche den aktuellen Stand gemeinsam weiterentwickelt."
+			}
+		]
+	},
+	{
+		"id": 2,
+		"colour": "yellow",
+		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
+		"imageSrc": "Masterarbeit.png",
+		"description": "Entwicklung eines Systemes, das Teilnehmenden auch nach dem Workshop zeigt, was mit ihren Beiträgen passiert - damit sie den Auswertungsprozess besser nachvollziehen, mitverfolgen und mitgestalten können.",
+		"content": [
+			{
+				"subtitle": "Folgt in Kürze",
+				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
+			}
+		]
+	},
+	{
 		"id": 3,
 		"colour": "red",
 		"title": "Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen für den PartizipationsHub - Bachelorarbeit",
@@ -46,49 +89,6 @@
 					"imageSrc": "BA-Ansichten.png"
 					}
 				]
-			}
-		]
-	},
-	{
-		"id": 1,
-		"colour": "green",
-		"title": "Platzsy - Deine Spielplatzassistenz",
-		"imageSrc": "Platzy.png",
-		"description": "Platzsy - Deine Spielplatzassistenz ist ein Projekt, welches im Rahmen des Open Data Hackathons 2022/2023 in einer Gruppenarbeit entwickelt.",
-		"content":[
-			{
-				"subtitle": "Projektbeschreibung",
-				"description": "Platzsy ist eine Anwendung, die im Rahmen des Open Data Hackathons 2022/2023 entwickelt wurde, um Eltern bei der Suche nach dem optimalen Spielplatz zu unterstützen. In einem hektischen Alltag, der von Arztterminen, KiTa-Organisation und Haushaltsaufgaben geprägt ist, bleibt wenig Zeit für aufwendige Recherchen. Auch wenn man zunächst annehmen könnte, die Spieplatzauswahl sei einfach – man sucht sich eben einen Passenden in der Nähe – sieht das in der Realität völlig anders aus. Spätestens, wenn man die Bedürfnisse mehrerer Kinder unterschiedlicher Altersstufen vereinen möchte, steht man vor einer großen Herausforderung. Platzsy löst dieses Problem, indem es Eltern ermöglicht, schnell und unkompliziert den passenden Spielplatz für ihre Kinder zu finden. Schluss mit zeitraubenden Ausprobier-Manövern – Platzsy macht die Auswahl einfach und effizient."
-			},
-			{
-				"subtitle": "Vorgehen",
-				"description": "Um trotz des begrenzten Zeitrahmens eine nutzerzentrierte Gestaltung zu gewährleisten, wurde zunächst eine Analyse durchgeführt, die die Nutzergruppen Eltern, KiTas und Stadt näher betrachtete. Basierend auf einer detaillierten Beschreibung der Nutzergruppen und entsprechender Szenarien wurden Use Cases abgeleitet, priorisiert und ein Product Backlog definiert. Damit sich während der Entwicklung auf die wesentliche Funktionen fokussiert werden konnte, wurde ein MVP (Minimum Viable Product) definiert."
-			},
-			{
-				"subtitle": "Die Anwendung",
-				"description": "Die Web-App wurde mithilfe Strapi für das Backend, Vue.js für das Frontend und Vuestic für das UI-Design erstellt. Die Datenbasis bilden Daten von OpenStreetMap sowie von Gruppenmitgliedern gesammelte Daten. Die MVP enthält eine Kartenübersicht der Spielplätze und eine detaillierte Ansicht jedes Spielplatzes mit Filteroptionen und Bewertungsmöglichkeiten.",
-				"media" : [
-					{
-					"videoSrc": "Platzsy.mp4"
-					}
-				]
-			},
-			{
-				"subtitle": "Ausblick",
-				"description": "Die entwickelte Web-App kann somit als Basis dienen, den Funktionsumfang über das MVP hinaus zu erweitern. Hierfür wurden bereits einige Features definiert, wie zum Beispiel eine Profilfunktion, um bereits besuchte Spielplätze zu protokollieren und Filtereinstellungen persistent zu speichern. Weiterhin wurde eine Auslastungsanzeige als relevante Funktion eingestuft, welche aufgrund fehlender Datengrundlage noch nicht umgesetzt werden konnte. Weiterhin gilt es, die Datengrundlage, welche von der Gruppe verwendet wurde, fundierter auszugestalten. So konnten im Rahmen des Hackathons nur von ca. 15 Spielplätzen detaillierte Daten (inklusive Fotos) aufbereitet werden. Die restlichen Daten wurden von OpenStreetMap integriert, sodass die Korrektheit dieser Datensätze nicht garantiert werden kann. Um den nutzerzentrierten Ansatz fortzusetzen, sollte ein Austausch mit potenziellen Nutzenden ermöglicht werden, sodass Funktionalitäten und Umsetzungen im Rahmen von User Studies getestet werden können. Ein Einstieg könnte sein, gemeinsam mit der Stadt und ausgewählten Nutzenden eine Fokusgruppe zu bilden, welche den aktuellen Stand gemeinsam weiterentwickelt."
-			}
-		]
-	},
-	{
-		"id": 2,
-		"colour": "yellow",
-		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
-		"imageSrc": "Masterarbeit.png",
-		"description": "Entwicklung eines Systemes, das Teilnehmenden auch nach dem Workshop zeigt, was mit ihren Beiträgen passiert - damit sie den Auswertungsprozess besser nachvollziehen, mitverfolgen und mitgestalten können.",
-		"content": [
-			{
-				"subtitle": "Folgt in Kürze",
-				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
 			}
 		]
 	}
