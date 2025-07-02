@@ -11,8 +11,7 @@
 				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten, 
 				wie zum Beispiel das Skizzieren, das Nähen individueller Stücke oder auch das Gestalten von Grafiken, 
 				welche ich anschließend mit meinem Plotter umsetzen kann. 
-				Zudem bin ich gerne in Bewegung und probiere neue Sportarten aus, 
-				gerade der Handball begleitet mich schon seit vielen Jahren. 
+				Zum Ausgleich bin ich gerne an der frischen Luft unterwegs, sei es beim Joggen oder auf dem Fahrrad. 
 				Abgesehen davon hege ich auch eine Vorliebe für alte Vespas.
 			</p>
 		</div>
