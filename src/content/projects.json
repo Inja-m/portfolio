@@ -1,6 +1,6 @@
 [
 	{
-		"id": 1,
+		"id": 3,
 		"colour": "red",
 		"title": "Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen für den PartizipationsHub - Bachelorarbeit",
 		"imageSrc": "BA-Veranstaltungen.png",
@@ -50,7 +50,7 @@
 		]
 	},
 	{
-		"id": 2,
+		"id": 1,
 		"colour": "green",
 		"title": "Platzsy - Deine Spielplatzassistenz",
 		"imageSrc": "Platzy.png",
@@ -80,7 +80,7 @@
 		]
 	},
 	{
-		"id": 3,
+		"id": 2,
 		"colour": "yellow",
 		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
 		"imageSrc": "Masterarbeit.png",
