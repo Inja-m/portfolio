@@ -7,7 +7,7 @@
 					mail
 				</span>
 			</a>
-			<a href="https://www.linkedin.com/in/inja-mainhardt-416709244/" target="_blank" rel="noopener noreferrer">
+			<a href="https://www.linkedin.com/in/inja-mainhardt/" target="_blank" rel="noopener noreferrer">
 					<svg class="pt-2 hover:rotate-12 transition duration-300 ease-in-out w-10 h-10" viewBox="0 0 72 72" version="1.1" xmlns="http://www.w3.org/2000/svg"
 						xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" xmlns:serif="http://www.serif.com/"
 						style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">

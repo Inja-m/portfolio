@@ -6,8 +6,9 @@
 				<router-link to="/about" class="link font-black"> Inja! </router-link>
 			</h1>
 			<p class="text-base text-justify mt-5">
-				Derzeit befinde ich mich im Masterstudium der Medieninformatik an der Universität zu Lübeck, 
-				welches ich voraussichtlich im Sommer 2025 abschließen werde. 
+				Ich habe meinen Master in Medieninformatik an der Universität zu Lübeck erfolgreich abgeschlossen, 
+				wo ich mich intensiv mit Mensch-Computer-Interaktion und der Frage beschäftigte, 
+				wie Technologie gebrauchstauglich gestaltet werden kann.
 				In meiner Freizeit widme ich mich gerne verschiedenen kreativen Projekten, 
 				wie zum Beispiel das Skizzieren, das Nähen individueller Stücke oder auch das Gestalten von Grafiken, 
 				welche ich anschließend mit meinem Plotter umsetzen kann. 

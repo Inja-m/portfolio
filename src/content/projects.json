@@ -5,6 +5,10 @@
 		"title": "Optimierung des Auswertungsprozesses von Co-Design Workshops: Entwicklung und Evaluation einer Systemlösung im Rahmen einer Fallstudie",
 		"imageSrc": "Masterarbeit.png",
 		"description": "Entwicklung eines Systemes, das Teilnehmenden auch nach dem Workshop zeigt, was mit ihren Beiträgen passiert - damit sie den Auswertungsprozess besser nachvollziehen, mitverfolgen und mitgestalten können.",
+		"role": "UX Researcher, Designer & Developer",
+		"time": "02/2025 - 09/2025",
+		"context": "Masterarbeit, Universität zu Lübeck",
+		"outcome": "Funktionsfähiger Prototyp (Nuxt Anwendung mit Strapi Backend)",
 		"content": [
 			{
 				"subtitle": "Folgt in Kürze",
@@ -18,6 +22,10 @@
 		"title": "Platzsy - Deine Spielplatzassistenz",
 		"imageSrc": "Platzy.png",
 		"description": "Platzsy - Deine Spielplatzassistenz ist ein Projekt, welches im Rahmen des Open Data Hackathons 2022/2023 in einer Gruppenarbeit entwickelt.",
+		"role": "UX Researcher, Designer & Developer",
+		"time": "01/2023",
+		"context": "Open Data Hackathon",
+		"outcome":  "Funktionsfähiger Prototyp (Vue.js Anwendung mit OpenStreetMap und Strapi Backend)",
 		"content":[
 			{
 				"subtitle": "Projektbeschreibung",
@@ -48,6 +56,10 @@
 		"title": "Entwicklung einer Komponente zur Darstellung von Projektsteckbriefen für den PartizipationsHub - Bachelorarbeit",
 		"imageSrc": "BA-Veranstaltungen.png",
 		"description": "Die Komponente hat das Ziel, das digitale Monitoring von Projekten und Projektideen für Jugendliche und junge Erwachsene in Lübeck zu ermöglichen, um Ressourcen zu aktivieren und gemeinsam zu gestalten.",
+		"role": "UX Researcher, Designer & Developer",
+		"time": "05/2022 - 12/2022",
+		"context": "Bachelorarbeit, Universität zu Lübeck",
+		"outcome": "Prototyp, mit Open Source Software Decidim",
 		"content":[
 			{
 				"subtitle": "Projektbeschreibung",
