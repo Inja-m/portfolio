@@ -76,7 +76,9 @@
           <h2>
             {{ content.subtitle }}
           </h2>
-          <p class="text-base text-justify pt-2">{{ content.description }}</p>
+          <p class="text-base text-justify pt-2 whitespace-pre-line leading-relaxed">
+						{{ content.description }}
+					</p>
           <div v-for="media in content.media">
             <div v-if="media.imageSrc" class="pt-10">
               <div class="flex justify-center items-center">

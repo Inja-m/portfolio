@@ -11,8 +11,54 @@
 		"outcome": "Funktionsfähiger Prototyp (Nuxt Anwendung mit Strapi Backend)",
 		"content": [
 			{
-				"subtitle": "Folgt in Kürze",
-				"description": "Dieser Abschnitt befindet sich gerade noch im Aufbau"
+				"subtitle": "Problemstellung",
+				"description": "In Co-Design-Prozessen treffen unterschiedliche Zielgruppen aufeinander, wie bspw. Teilnehmende, Forschende und Förderinstitutionen, die teils unterschiedliche Interessen verfolgen. Während Co-Design-Workshops eine aktive Beteiligung ermöglichen, endet die Partizipation häufig mit dem Workshop selbst. Teilnehmende investieren Zeit und Ressourcen, ohne nachvollziehen zu können, wie ihre Beiträge weiterverarbeitet werden oder welchen Einfluss sie auf die Ergebnisse haben. Zudem werden Resultate oft erst sehr spät oder gar nicht sichtbar."
+			},
+			{
+				"subtitle": "Ziel",
+				"description": "Ziel der Arbeit ist die Optimierung des Auswertungsprozesses in Co-Design-Projekten, um mehr Transparenz für Teilnehmende zu schaffen. Die Wirksamkeit ihrer Investition soll nachvollziehbar werden, indem sichtbar wird, wie ihre Beiträge in die Ergebnisse einfließen. Durch zeitnahe und aktive Rückmeldungen wird Engagement wertgeschätzt und der partizipative „Loop“ geschlossen. Gleichzeitig leistet die Arbeit einen Beitrag zur Erweiterung der Wissensbasis über Sichtbarkeit und Wirkung von Partizipation."
+			},
+				{
+				"subtitle": "Theoretischer Rahmen",
+				"description": "Diese Arbeit basiert auf dem Framework der gestaltungsorientierten Forschung nach Hevner et al. (2004), das zwei wissenschaftliche Perspektiven verbindet: Verhaltenswissenschaft und Gestaltungswissenschaft. Die Verhaltenswissenschaft zielt darauf ab, bestehende organisatorische und menschliche Phänomene zu erklären und zu verstehen. Die Gestaltungswissenschaft hingegen fokussiert sich auf die Entwicklung und Erprobung konkreter Lösungen, die einen praktischen Nutzen erzeugen. Beide Ansätze stehen in einem wechselseitigen Verhältnis: Theoretische Erkenntnisse bilden die Grundlage für Gestaltung, während gestaltete Artefakte neue Impulse für die Theorie liefern. Auf dieser Basis wird ein iterativer Entwicklungs- und Evaluationsprozess verfolgt, der Praxisanforderungen und wissenschaftliche Erkenntnisse miteinander verknüpft. Methodisch orientiert sich die Arbeit am Ansatz Research through Design (RtD). Dabei dient die Entwicklung eines Artefakts als zentrales Mittel zur Wissensgenerierung. Gestaltung wird somit nicht nur als Ergebnis, sondern als Forschungsinstrument verstanden.",
+				"media":[
+					{
+					"imageSrc": "FrameworkInformationssystemforschung.jpg"
+					}
+				]
+			},
+			{
+				"subtitle": "Forschungsfragen",
+				"description": "F1 Welche anwendungsspezifischen Anforderungen und Herausforderungen bestehen an eine Systemlösung innerhalb des Auswertungsprozesses von Co-Design Workshops, sowohl aus Sicht der Teilnehmenden als auch aus Sicht der Auswertenden? \n F2 Wie kann eine Systemlösung gestaltet werden, um den Auswertungsprozess von Co-Design Workshops zu optimieren, insbesondere durch die Sichtbarmachung der Beiträge der Teilnehmenden? \n F3 Welche Auswirkungen hat die Verwendung der Systemlösung auf den Co-Design Prozess und seine Ergebnisse? \n F3.1 Wie wird die Gebrauchstauglichkeit der Systemlösung aus Sicht der Teilnehmenden im Co-Design Prozess bewertet? \n F3.2 Wie beeinflusst die Verwendung die subjektiv wahrgenommene Motivation der Teilnehmenden, das Vertrauen in den Prozess und ihre Bereitschaft, an weiteren Workshops teilzunehmen?"
+			},
+			{
+				"subtitle": "Studiendesign",
+				"description": "Zur Beantwortung der Forschungsfragen wurde ein dreistufiges Studiendesign entwickelt, das Analyse, Gestaltung und Evaluation miteinander verbindet. Im ersten Schritt wurde der Nutzungskontext untersucht, um Anforderungen, Herausforderungen und Gestaltungsspielräume im Auswertungsprozess von Co-Design-Workshops zu identifizieren. Dazu wurde zunächst eine Dokumentenanalyse bestehender Materialien (u. a. Auswertungsprozesse, Protokolle und Artefakte früherer Projekte) durchgeführt. Ergänzend fand ein Co-Design-Workshop mit Teilnehmenden statt, um deren Perspektiven, Bedürfnisse und Erfahrungen gezielt in den Gestaltungsprozess einzubeziehen. Auf Basis dieser Erkenntnisse wurde im zweiten Schritt eine erste Systemlösung entwickelt. Die Gestaltung erfolgte iterativ und vereinte funktionale, visuelle und konzeptuelle Aspekte mit dem Ziel, Transparenz, Verständlichkeit und Gebrauchstauglichkeit zu verbessern. Der dritte Schritt widmete sich der Evaluation der Systemlösung. Zunächst wurden grundlegende Funktionen und die Usability mithilfe eines Cognitive Walkthroughs sowie standardisierter Fragebögen überprüft. Abschließend wurde die Wirkung der Lösung in einem A/B-Test unter realitätsnahen Bedingungen untersucht. Dabei erhielt eine Gruppe Zugang zur Systemlösung und begleitende Informationen zum Auswertungsprozess, während die Vergleichsgruppe diese nicht erhielt. Rückmeldungen wurden unmittelbar nach den Workshops sowie zeitversetzt erhoben, um sowohl kurzfristige als auch nachhaltige Effekte zu erfassen.",
+				"media":[
+					{
+					"imageSrc": "Studiendesign.png"
+					}
+				]
+			},
+			{
+				"subtitle": "Analyse",
+				"description": "Zur Datenerhebung wurden zwei verschiedene Methoden eingesetzt. Zunächst erfolgte eine Dokumentenanalyse bestehender Materialien des Forschungsteams des Instituts für Multimediale und Interaktive Systeme. Die analysierten Dokumente umfassten Arbeitsmaterialien, Prozessbeschreibungen sowie Artefakte aus der Auswertung früherer Co-Design-Workshops und lieferten Einblicke in etablierte Abläufe, Herausforderungen und organisatorische Rahmenbedingungen. Ergänzend wurde ein Co-Design-Workshop mit zehn Teilnehmenden durchgeführt, um die Perspektive potenzieller Nutzender gezielt einzubeziehen. Die Teilnehmenden arbeiteten in kleinen Gruppen, um unterschiedliche Sichtweisen zusammenzuführen und eine aktive Beteiligung aller zu ermöglichen. Mithilfe vorbereiteter Materialien und Mockups identifizierten sie Anforderungen und Herausforderungen und entwickelten erste Gestaltungsideen. Die Ergebnisse wurden gruppenübergreifend diskutiert und durch einen kurzen Fragebogen im Anschluss ergänzt. Aus der Auswertung beider Methoden konnten organisatorische, nutzungsbezogene und bedarfsspezifische Anforderungen abgeleitet werden. Diese wurden anschließend in formalisierte Anforderungen nach Balzert überführt und bildeten die Grundlage für die weitere Systemgestaltung."
+			},
+			{
+				"subtitle": "Implementierung",
+				"description": "Die Systemlösung wurde als plattformunabhängige Webanwendung umgesetzt und ist direkt im Browser nutzbar, ohne Installation. Dadurch ist der Zugriff auf verschiedenen Endgeräten wie Desktop, Tablet und Smartphone gewährleistet. Die Anwendung wurde als Progressive Web App (PWA) realisiert, um Funktionen wie Push-Benachrichtigungen und Offline-Fähigkeit zu unterstützen. Die Architektur folgt einer klaren Trennung von Frontend und Backend, um Wartbarkeit, Erweiterbarkeit und Wiederverwendbarkeit einzelner Komponenten zu gewährleisten. Das Frontend wurde mit Nuxt 3 (Vue.js) umgesetzt und unterstützt eine responsive Benutzeroberfläche sowie moderne Webstandards. Das Backend basiert auf dem Headless CMS Strapi, das eine flexible Verwaltung von Inhalten, ein rollenbasiertes Account-Management und die Bereitstellung strukturierter APIs ermöglicht. Zur Datenspeicherung kommt eine leichtgewichtige relationale Datenbank zum Einsatz.",
+				"media":[
+					{
+					"imageSrc": "uml.png"
+					}
+				]},
+			{
+				"subtitle": "Evaluation und Weiterentwicklung",
+				"description": "Die Systemlösung wurde mehrstufig evaluiert, um sowohl Gebrauchstauglichkeit als auch Wirkung zu überprüfen. In einer ersten Phase wurden Cognitive Walkthroughs mit fünf Expert:innen durchgeführt und durch standardisierte Fragebögen (SUS, UEQ) ergänzt. Die Ergebnisse bestätigten eine hohe Usability und lieferten konkrete Hinweise für Verbesserungen, insbesondere in der Darstellung der Auswertungsschritte, der Dialogführung sowie der Informations- und visuellen Struktur. Zur Validierung und Erweiterung der Anforderungen wurde ein weiterer Co-Design-Workshop durchgeführt. Zentrale Erkenntnisse aus dem ersten Workshop konnten bestätigt und um zusätzliche Perspektiven ergänzt werden. Die direkte Nutzung der Anwendung im Anschluss zeigte, dass Teilnehmende die Auswertungsschritte selbstständig und ohne zusätzliche Erklärung nachvollziehen konnten. Ergänzend wurde eine Webanalyse mit Microsoft Clarity eingesetzt, um reale Nutzungsmuster, Interaktionen und Abbruchpunkte zu identifizieren. Die Kombination aus qualitativer Evaluation, partizipativer Rückmeldung und Nutzungsdaten ermöglichte eine fundierte Priorisierung weiterer Anforderungen. Auf dieser Basis wurde die Systemlösung iterativ weiterentwickelt. Neben der Umsetzung neuer funktionaler Anforderungen wurde insbesondere die Nachvollziehbarkeit individueller Beiträge zum Gesamtergebnis gezielt verbessert. Die fortgesetzte Nutzung der Anwendung durch einzelne Teilnehmende deutet auf ein anhaltendes Interesse und eine nachhaltige Einbindung über den Workshop hinaus hin."
+			},
+			{
+				"subtitle": "Fallstudie",
+				"description": "Die Fallstudie vergleicht zwei Co-Design Workshops unter unterschiedlichen Bedingungen. Im ersten Workshop stand den Teilnehmenden keine Anwendung zur Verfügung. Im zweiten Workshop erhielten die Teilnehmenden Zugriff auf die entwickelte Systemlösung und konnten diese im Anschluss an den Workshop nutzen. In beiden Fällen wurden standardisierte Fragebögen direkt nach dem Workshop sowie etwa einen Monat später erhoben. Erfasst wurden Motivation und Teilnahmebereitschaft (IMI) sowie Vertrauen in den Prozess (TOAST). \n Die Ergebnisse zeigen keine statistisch signifikanten Unterschiede zwischen den beiden Workshops, weisen jedoch auf inhaltlich relevante Tendenzen hin. Insbesondere in den Bereichen Interesse/Genuss, Kompetenzerleben und Spannung/Druck zeigten sich in der ersten Befragung mittlere Effektstärken zugunsten des zweiten Workshops. Im zeitlichen Verlauf nahm die wahrgenommene Motivation in beiden Gruppen ab, der Rückgang fiel jedoch im zweiten Workshop deutlich schwächer aus. Dies deutet darauf hin, dass der Zugang zur Anwendung einen stabilisierenden Effekt auf die Motivation gehabt haben könnte.\n Auffällig ist zudem die höhere Rücklaufquote der zweiten Befragung im zweiten Workshop sowie eine leichte Zunahme der Bereitschaft zur erneuten Teilnahme, während diese im ersten Workshop abnahm. Die Ergebnisse zur Vertrauensmessung (TOAST) zeigten über beide Workshops hinweg nur geringe Veränderungen. Dies legt nahe, dass das zusätzliche Angebot das subjektive Erleben zwar positiv beeinflusste, jedoch keine starken Effekte auf Vertrauen oder wahrgenommene Leistung hatte.\n Im Hinblick auf die Forschungsfrage F3.2 lässt sich festhalten, dass die Systemlösung keine negativen Auswirkungen auf Motivation, Vertrauen oder Teilnahmebereitschaft hatte und von den Teilnehmenden insgesamt positiv angenommen wurde. Aufgrund der geringen Stichprobengröße sind die Ergebnisse vorsichtig zu interpretieren, liefern jedoch wertvolle Hinweise auf das Potenzial transparenter Rückkopplung in Co-Design-Prozessen."
 			}
 		]
 	},
